@@ -1,0 +1,45 @@
+/* app */
+.margins {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* Index */
+
+.wrap-index {
+  float: left;
+  margin: 5px;
+}
+
+.first-text-index {
+  padding-top: 0.3em;
+  padding-bottom: 1em;
+}
+.second-text-index {
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+.third-text-index {
+  padding-bottom: 1em;
+}
+.row-1-index {
+  background-color: lightskyblue;
+  margin-top: 0.2em;
+}
+.row-2-index {
+  background-color: lightcyan;
+}
+
+/* Footer */
+.main-footer {
+  background-color: black;
+  margin: auto;
+  padding: 0px;
+}
+.copyright {
+  color: white;
+  padding-left: 4em;
+  margin: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
