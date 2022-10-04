@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/globals.css";
 import "../styles/general.css";
 import Head from "next/head";
 import MainNav from "../components/nav-main";
@@ -22,7 +21,7 @@ function MyApp({ Component, pageProps }) {
         <MainNav />
       </nav>
       <div className="margins">
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </div>
       <footer>
         <Footer />

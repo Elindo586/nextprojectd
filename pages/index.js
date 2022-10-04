@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Container>
         <Row className="row-1-index">
-          <Col md={12} className="main-index">
+          <Col md={12}>
             <Col sm={5} xs={5}>
               <div className="wrap-index">
                 <Image
@@ -45,7 +45,7 @@ export default function Home() {
             </Col>
           </Col>
         </Row>
-        <Row m-0 p-0 className="row-2-index align-items-end">
+        <Row className="row-2-index align-items-end">
           <Col className="test">
             <h2 className="second-text-index">
               {" "}
@@ -60,11 +60,12 @@ export default function Home() {
               builders (OEM's). <br /> <br />I am by need/fun a programmer, a
               website builder. Learning to code later in life was a surprise
               that I enjoy and I keep on learning and developing for work
-              reasons and likely for fun as well. <br /> <br />
-              test testtest testtest testtest testtest testtest testtest
-              testtest testtest testtest testtest testtest testtest testtest
-              testtest testtest testtest testtest testtest testtest testtest
-              testtest test
+              reasons and likely for fun as well. <br /> <br />I am a family
+              guy, even when I am always busy is important to have time with
+              your family specially for the lady and growing kids.
+              <br />
+              <br />
+              <br />
             </p>
           </Col>
         </Row>

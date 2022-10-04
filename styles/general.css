@@ -5,41 +5,63 @@
 }
 
 /* Index */
+.main-index .main-about {
+  background-color: whitesmoke;
+}
 
 .wrap-index {
   float: left;
-  margin: 5px;
+  margin-top: 1.5em;
+  margin-right: 0.3em;
+  margin-bottom: 0.01em;
 }
 
 .first-text-index {
-  padding-top: 0.3em;
+  padding-top: 1.7em;
   padding-bottom: 1em;
 }
 .second-text-index {
   padding-top: 0.5em;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 .third-text-index {
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
+  margin: 0px;
 }
 .row-1-index {
   background-color: lightskyblue;
-  margin-top: 0.2em;
+  margin-top: 0.1em;
 }
 .row-2-index {
   background-color: lightcyan;
+  margin-bottom: 0px;
 }
 
 /* Footer */
 .main-footer {
   background-color: black;
-  margin: auto;
-  padding: 0px;
 }
 .copyright {
   color: white;
   padding-left: 4em;
-  margin: 0px;
+  margin: auto;
   padding-top: 8px;
-  padding-bottom: 8px;
+  padding-bottom: 16px;
+}
+
+/* About */
+
+.wrap-about {
+  float: right;
+  margin-top: 1.5em;
+}
+.first-text-about {
+  padding-top: 0.3em;
+  padding-bottom: 1em;
+  padding-top: 1.5em;
+}
+/* Work */
+.wrap-work {
+  float: left;
+  margin-top: 3em;
 }
