@@ -57,7 +57,7 @@ export default function Home() {
               products. I have experience in industrial markets from north,
               central, and south America working in wide range of industrial
               machinery applications with End Users, distributors, and machine
-              builders (OEM's). <br /> <br />I am by need/fun a programmer, a
+              builders (OEMs). <br /> <br />I am by need/fun a programmer, a
               website builder. Learning to code later in life was a surprise
               that I enjoy and I keep on learning and developing for work
               reasons and likely for fun as well. <br /> <br />I am a family

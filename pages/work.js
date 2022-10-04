@@ -42,7 +42,7 @@ export default function Work() {
             systems, sensors, gear boxes, and too many other to mention are
             often handle by companies and engineers who are coming from the old
             Fluid Power world. This is the reason why Fluid Power is now often
-            called / or evolving to 'Mechatronics'.
+            called / or evolving to Mechatronics.
           </Col>
         </Row>
         <Row className="row-2-index align-items-end">

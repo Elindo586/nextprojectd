@@ -60,18 +60,19 @@ export default function Coding() {
               wanted, and then writing a few other similar functions to do the
               rest. <br /> <br />
               When I got done with the animation I still had no much knowledge
-              about coding, maybe the animation was looking 'cool' (so I think),
+              about coding, maybe the animation was looking cool (so I think),
               but it was just a few functions to control an SVG drawing. <br />{" "}
               <br />
               If you are not a software engineer and you are not familiar with a
-              'function'in programming, think of a function as an equation,
-              something that would find in your physics or electrical class to
-              calculate speed, force, voltage, amps.. the difference is that a
-              function is written in whatever programming language you are
-              working with, and you have a bit more control of the variables to
-              use for the function to come up with the results that you want.
-              This right here is what attracted me to programming, besides the
-              point that I needed / wanted to publish information in a website.
+              <strong>function </strong> in programming, think of a function as
+              an equation, something that would find in your physics or
+              electrical class to calculate speed, force, voltage, amps.. the
+              difference is that a function is written in whatever programming
+              language you are working with, and you have a bit more control of
+              the variables to use for the function to come up with the results
+              that you want. This right here is what attracted me to
+              programming, besides the point that I needed / wanted to publish
+              information in a website.
             </p>
           </Col>
         </Row>
@@ -110,11 +111,11 @@ export default function Coding() {
             <p>
               If you are interested in learning to code without going for a
               computer science degree, then I surely would recommend Angela Yu
-              and check out her class, and no, Angela doesn't know me and has no
-              idea who I am, but I still think her class is pretty good. <br />{" "}
-              <br />
-              There are many tools out there and they all get to be the 'buzz'
-              of the moment and maybe you'll think you need to learn a certain
+              and check out her class, and no, Angela does not know me and has
+              no idea who I am, but I still think her class is pretty good.{" "}
+              <br /> <br />
+              There are many tools out there and they all get to be the buzz of
+              the moment and maybe you will think you need to learn a certain
               tool, but keep in mind that if you have control of good old HTML,
               CSS, and JavaScript, then all the awesome tools are just
               secondary. Something like Bootstrap is easy to learn, and sure
@@ -125,14 +126,14 @@ export default function Coding() {
               learn them later when you get more comfortable with your coding. I
               will tell you right now NOT to use REACT alone as I learned the
               hard way that REACT alone is no good for SEO because search
-              engines can't read JavaScript, and you'll need to learn Server
+              engines can not read JavaScript, and you will need to learn Server
               Side Rendering to use in REACT, this is why I am using NEXT.js
               instead. <br /> <br />
               Learning to code takes time and it can be frustrating. Keeping it
               simple and advancing at your own pace is the way to go. Once you
               start coding you also need to practice to keep and obtain more
-              skills, or else you'll forget, some places to keep sharpening your
-              skills are places like{" "}
+              skills, or else you will forget, some places to keep sharpening
+              your skills are places like{" "}
               <a href="https://www.sololearn.com/home">SoloLearn</a> and{" "}
               <a href="https://www.sololearn.com/home">CodeWars</a> <br />
               <br />
