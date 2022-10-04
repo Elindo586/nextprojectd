@@ -96,7 +96,7 @@ export default function Coding() {
               difference is that a function is written in whatever programming
               language you are working with, and you have a bit more control of
               the variables to use for the function to come up with the results
-              that you want. This right here is what attracted me to
+              that you want. &larr; This right here is what attracted me to
               programming, besides the point that I needed / wanted to publish
               information in a website.
             </p>
@@ -144,7 +144,7 @@ export default function Coding() {
               no idea who I am, but I still think her class is pretty good.{" "}
               <br /> <br />
               There are many tools out there and they all get to be the buzz of
-              the moment and maybe you will think you need to learn a certain
+              the moment and maybe you&#39;ll think you need to learn a certain
               tool, but keep in mind that if you have control of good old HTML,
               CSS, and JavaScript, then all the awesome tools are just
               secondary. Something like Bootstrap is easy to learn, and sure
