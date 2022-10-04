@@ -1,0 +1,67 @@
+[
+  {
+    "id": "index",
+    "metaTitle": "Edgar Lindo",
+    "metaDescription": "This is Edgar Lindo's website",
+    "metaKeywords": "Edgar, Lindo, Edgar Lindo",
+    "ogTitle": "Edgar Lindo",
+    "ogDescription": "This is Edgar Lindo's website",
+    "ogURL": "https://www.edgarlindo.com/",
+    "ogImage": "https://www.edgarlindo.com//images/meta-images/meta-home.png",
+    "twitterTitle": "Edgar Lindo",
+    "twitterDescription": "This is Edgar Lindo's website",
+    "twitterImage": "https://www.edgarlindo.com/images/meta-images/meta-home.png"
+  },
+  {
+    "id": "about",
+    "metaTitle": "Who is Edgar Lindo?",
+    "metaDescription": "Learn about who is Edgar Lindo and how you can work with him.",
+    "metaKeywords": "about, Edgar, Lindo, Edgar Lindo",
+    "ogTitle": "Who is Edgar Lindo?",
+    "ogDescription": "Learn about who is Edgar Lindo and how you can work with him.",
+    "ogURL": "https://www.edgarlindo.com/about",
+    "ogImage": "https://www.edgarlindo.com//images/meta-images/meta-about.png",
+    "twitterTitle": "Who is Edgar Lindo?",
+    "twitterDescription": "Learn about who is Edgar Lindo and how you can work with him.",
+    "twitterImage": "https://www.edgarlindo.com/images/meta-images/meta-about.png"
+  },
+  {
+    "id": "coding",
+    "metaTitle": "Edgar Lindo coding",
+    "metaDescription": "This is how I learned to code, and this is how you can learn to code.",
+    "metaKeywords": "coding, Edgar, Lindo, Edgar Lindo",
+    "ogTitle": "Edgar Lindo coding",
+    "ogDescription": "This is how I learned to code, and this is how you can learn to code.",
+    "ogURL": "https://www.edgarlindo.com/coding",
+    "ogImage": "https://www.edgarlindo.com//images/meta-images/meta-coding.png",
+    "twitterTitle": "Edgar Lindo coding",
+    "twitterDescription": "This is how I learned to code, and this is how you can learn to code.",
+    "twitterImage": "https://www.edgarlindo.com/images/meta-images/meta-coding.png"
+  },
+  {
+    "id": "work",
+    "metaTitle": "Edgar Lindo industrial work.",
+    "metaDescription": "This is how you can buy and sell industrial products working with Edgar Lindo.",
+    "metaKeywords": "work, Edgar, Lindo, Edgar Lindo",
+    "ogTitle": "Edgar Lindo industrial work.",
+    "ogDescription": "This is how you can buy and sell industrial products working with Edgar Lindo.e",
+    "ogURL": "https://www.edgarlindo.com/work",
+    "ogImage": "https://www.edgarlindo.com//images/meta-images/meta-work.png",
+    "twitterTitle": "Edgar Lindo industrial work.",
+    "twitterDescription": "This is how you can buy and sell industrial products working with Edgar Lindo.",
+    "twitterImage": "https://www.edgarlindo.com/images/meta-images/meta-work.png"
+  },
+  {
+    "id": "contact",
+    "metaTitle": "Edgar Lindo | Contact",
+    "metaDescription": "This is how you can contact Edgar Lindo.",
+    "metaKeywords": "contact, Edgar, Lindo, Edgar Lindo",
+    "ogTitle": "Edgar Lindo | Contact",
+    "ogDescription": "This is how you can contact Edgar Lindo.",
+    "ogURL": "https://www.edgarlindo.com/contact",
+    "ogImage": "https://www.edgarlindo.com//images/meta-images/meta-contact.png",
+    "twitterTitle": "Edgar Lindo | Contact",
+    "twitterDescription": "This is how you can contact Edgar Lindo.",
+    "twitterImage": "https://www.edgarlindo.com/images/meta-images/meta-contact.png"
+  }
+]

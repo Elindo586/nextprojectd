@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 
 export default function Coding() {
   return (
-    <div className="main-about">
+    <div className="main-index">
       <div>
         <Head>
           <title>Edgar Lindo</title>
@@ -90,19 +90,19 @@ export default function Coding() {
               night, then it was the time to get rid of my CMS (Content
               Management System) and start coding websites on my own without any
               software help.
-              <br /> <br />
-              <h5> The tools I am using are:</h5>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-                <li>JavaScript</li>
-                <li>Express.js</li>
-                <li>REACT</li>
-                <li>NEXT.js</li>
-                <li>GSAP</li>
-              </ul>
             </p>
+            <br /> <br />
+            <h5> The tools I am using are:</h5>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>JavaScript</li>
+              <li>Express.js</li>
+              <li>REACT</li>
+              <li>NEXT.js</li>
+              <li>GSAP</li>
+            </ul>
           </Col>
         </Row>
         <Row>
