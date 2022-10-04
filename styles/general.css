@@ -65,3 +65,30 @@
   float: left;
   margin-top: 3em;
 }
+/* Thank you */
+.thank-you-text {
+  text-align: center;
+}
+/* Contact Form */
+.main-contact-form-div {
+  background-color: lightskyblue;
+  margin-top: 0.5em;
+}
+.get-in-touch {
+  padding-top: 0.7em;
+  padding-left: 0.5em;
+  text-align: center;
+}
+.form-label {
+  padding-left: 0.5em;
+}
+
+.form-button {
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* Page - Contact */
+.main-form-div {
+  background-color: whitesmoke;
+}

@@ -7,11 +7,14 @@ import Col from "react-bootstrap/Col";
 export default function Coding() {
   return (
     <div className="main-about">
-      <Head>
-        <title>Edgar Lindo</title>
-        <meta name="description" content="This is Edgar Lindo" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <div>
+        <Head>
+          <title>Edgar Lindo</title>
+          <meta name="description" content="This is Edgar Lindo" />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+      </div>
+
       <Container>
         <Row className="row-1-index">
           <Col md={6} className="first-text-about">
@@ -30,8 +33,8 @@ export default function Coding() {
             If you know anything about coding, you would know that HTML and CSS
             are only the scratches on the surface for coding, if you really want
             to learn to code and understand software engineering, then you must
-            pick languages such as Python, Javascript, among others depending on
-            what you are working.
+            pick languages such as Python, Javascript, among other languages
+            depending on what you are working.
           </Col>
           <Col md={6}>
             <div className="wrap-about">
@@ -64,7 +67,7 @@ export default function Coding() {
               but it was just a few functions to control an SVG drawing. <br />{" "}
               <br />
               If you are not a software engineer and you are not familiar with a
-              <strong>function </strong> in programming, think of a function as
+              <strong> function </strong> in programming, think of a function as
               an equation, something that would find in your physics or
               electrical class to calculate speed, force, voltage, amps.. the
               difference is that a function is written in whatever programming

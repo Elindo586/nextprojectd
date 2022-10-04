@@ -7,11 +7,14 @@ import Col from "react-bootstrap/Col";
 export default function About() {
   return (
     <div className="main-about">
-      <Head>
-        <title>Edgar Lindo</title>
-        <meta name="description" content="This is Edgar Lindo" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <div>
+        <Head>
+          <title>Edgar Lindo</title>
+          <meta name="description" content="This is Edgar Lindo" />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+      </div>
+
       <Container>
         <Row className="row-1-index">
           <Col md={6} className="first-text-about">
