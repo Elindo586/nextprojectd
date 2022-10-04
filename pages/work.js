@@ -4,14 +4,39 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import MetaEnglish from "../components/meta-english";
+import db from "../utils/meta-tags/meta-tags.json";
+
+export async function getStaticProps() {
+  return {
+    props: { db },
+  };
+}
+
 export default function Work() {
   return (
     <div className="main-about">
-      <Head>
-        <title>Edgar Lindo</title>
-        <meta name="description" content="This is Edgar Lindo" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <div>
+        {db
+          .filter((item) => item.id === "work")
+          .map((item) => {
+            return (
+              <MetaEnglish
+                key={item.id}
+                metaTitle={item.metaTitle}
+                metaDescription={item.metaDescription}
+                metaKeywords={item.metaKeywords}
+                ogTitle={item.ogTitle}
+                ogDescription={item.ogDescription}
+                ogURL={item.ogURL}
+                ogImage={item.ogImage}
+                twitterTitle={item.twitterTitle}
+                twitterDescription={item.twitterDescription}
+                twitterImage={item.twitterImage}
+              />
+            );
+          })}
+      </div>
       <Container>
         <Row className="row-1-index">
           <Col md={6}>
@@ -86,7 +111,7 @@ export default function Work() {
               industrial products that could be an alternative for your local
               large brand names. For more details are products open for
               distribution you could visit{" "}
-              <a href="https://www.tu.biz/">
+              <a href="https://www.tu.biz/" target="blank">
                 {" "}
                 <strong>TU </strong>
               </a>

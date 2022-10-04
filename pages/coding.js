@@ -4,15 +4,38 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import MetaEnglish from "../components/meta-english";
+import db from "../utils/meta-tags/meta-tags.json";
+
+export async function getStaticProps() {
+  return {
+    props: { db },
+  };
+}
+
 export default function Coding() {
   return (
     <div className="main-index">
       <div>
-        <Head>
-          <title>Edgar Lindo</title>
-          <meta name="description" content="This is Edgar Lindo" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+        {db
+          .filter((item) => item.id === "coding")
+          .map((item) => {
+            return (
+              <MetaEnglish
+                key={item.id}
+                metaTitle={item.metaTitle}
+                metaDescription={item.metaDescription}
+                metaKeywords={item.metaKeywords}
+                ogTitle={item.ogTitle}
+                ogDescription={item.ogDescription}
+                ogURL={item.ogURL}
+                ogImage={item.ogImage}
+                twitterTitle={item.twitterTitle}
+                twitterDescription={item.twitterDescription}
+                twitterImage={item.twitterImage}
+              />
+            );
+          })}
       </div>
 
       <Container>
@@ -23,7 +46,7 @@ export default function Coding() {
             and CSS for a long time while being a website owner, but I did not
             get a real interest in coding until mid 2021 when I wanted to create
             this{" "}
-            <a href="https://www.tu.biz/interactive">
+            <a href="https://www.tu.biz/interactive" target="blank">
               interactive technical animation{" "}
             </a>
             . During those days I knew absolutely nothing about JavaScript, and
@@ -84,10 +107,13 @@ export default function Coding() {
             <h2 className="second-text-index"> My tools and resources</h2>
             <p>
               I am going to credit{" "}
-              <a href="https://twitter.com/yu_angela?lang=en"> Angela Yu</a> as
-              the person who taught me to code, or at least taught me the basics
-              to keep on learning. After taking some of her classes late at
-              night, then it was the time to get rid of my CMS (Content
+              <a href="https://twitter.com/yu_angela?lang=en" target="blank">
+                {" "}
+                Angela Yu
+              </a>{" "}
+              as the person who taught me to code, or at least taught me the
+              basics to keep on learning. After taking some of her classes late
+              at night, then it was the time to get rid of my CMS (Content
               Management System) and start coding websites on my own without any
               software help.
             </p>
@@ -137,8 +163,14 @@ export default function Coding() {
               start coding you also need to practice to keep and obtain more
               skills, or else you will forget, some places to keep sharpening
               your skills are places like{" "}
-              <a href="https://www.sololearn.com/home">SoloLearn</a> and{" "}
-              <a href="https://www.sololearn.com/home">CodeWars</a> <br />
+              <a href="https://www.sololearn.com/home" target="blank">
+                SoloLearn
+              </a>{" "}
+              and{" "}
+              <a href="https://www.sololearn.com/home" target="blank">
+                CodeWars
+              </a>{" "}
+              <br />
               <br />
             </p>
           </Col>

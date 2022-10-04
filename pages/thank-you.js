@@ -13,7 +13,7 @@ const Thanks = () => {
           <link
             rel="shortcut icon"
             type="image/png"
-            href="/images/tu-favicon.png"
+            href="/images/el-favicon.png"
           />
           <meta
             name="facebook-domain-verification"

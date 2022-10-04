@@ -4,15 +4,38 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-export default function About() {
+import MetaEnglish from "../components/meta-english";
+import db from "../utils/meta-tags/meta-tags.json";
+
+export async function getStaticProps() {
+  return {
+    props: { db },
+  };
+}
+
+export default function About({ db }) {
   return (
     <div className="main-about">
       <div>
-        <Head>
-          <title>Edgar Lindo</title>
-          <meta name="description" content="This is Edgar Lindo" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+        {db
+          .filter((item) => item.id === "about")
+          .map((item) => {
+            return (
+              <MetaEnglish
+                key={item.id}
+                metaTitle={item.metaTitle}
+                metaDescription={item.metaDescription}
+                metaKeywords={item.metaKeywords}
+                ogTitle={item.ogTitle}
+                ogDescription={item.ogDescription}
+                ogURL={item.ogURL}
+                ogImage={item.ogImage}
+                twitterTitle={item.twitterTitle}
+                twitterDescription={item.twitterDescription}
+                twitterImage={item.twitterImage}
+              />
+            );
+          })}
       </div>
 
       <Container>
