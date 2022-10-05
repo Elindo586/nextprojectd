@@ -13,39 +13,45 @@ export default function ContactForm() {
   const router = useRouter();
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    if (firstName === "") {
+      alert("Please enter your name.");
+    } else if ((email = "")) {
+      alert("Please enter a valid email.");
+    } else {
+      e.preventDefault();
 
-    console.log("Sending");
+      console.log("Sending");
 
-    let data = {
-      firstName,
-      company,
-      email,
-      country,
-      notes,
-    };
-    router.replace("/thank-you");
+      let data = {
+        firstName,
+        company,
+        email,
+        country,
+        notes,
+      };
+      router.replace("/thank-you");
 
-    fetch("/api/contact", {
-      method: "POST",
-      headers: {
-        Accept: "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    }).then((res) => {
-      console.log("Response received");
+      fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          Accept: "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }).then((res) => {
+        console.log("Response received");
 
-      if (res.status === 200) {
-        console.log("Response succeeded!");
-        setSubmitted(true);
-        setFirstName("");
-        setCompany("");
-        setEmail("");
-        setCountry("");
-        setNotes("");
-      }
-    });
+        if (res.status === 200) {
+          console.log("Response succeeded!");
+          setSubmitted(true);
+          setFirstName("");
+          setCompany("");
+          setEmail("");
+          setCountry("");
+          setNotes("");
+        }
+      });
+    }
   };
 
   return (
