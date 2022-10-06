@@ -5,10 +5,11 @@ import Navbar from "react-bootstrap/Navbar";
 
 const MainNav = () => {
   return (
-    <>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#about">Edgar L. Lindo</Navbar.Brand>
+    <Navbar bg="dark" variant="dark" expand="md">
+      <Container>
+        <Navbar.Brand href="/">Edgar Lindo</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
@@ -16,9 +17,9 @@ const MainNav = () => {
             <Nav.Link href="/work">Work</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
-        </Container>
-      </Navbar>
-    </>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 

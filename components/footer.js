@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className="main-footer">
       <p className="copyright">
-        © {fullYear()} Copyright Edgar Lindo
+        Copyright © {fullYear()} Edgar Lindo
         <br />
       </p>
     </footer>
