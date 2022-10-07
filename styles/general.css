@@ -63,6 +63,9 @@
 .edgar {
   color: green;
 }
+.edgar:hover {
+  color: chartreuse;
+}
 
 /* About */
 
