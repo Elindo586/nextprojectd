@@ -41,12 +41,27 @@
 .main-footer {
   background-color: black;
 }
-.copyright {
+.footer-privacy {
   color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+.copyright {
+  color: gray;
   padding-left: 4em;
   margin: auto;
-  padding-top: 8px;
-  padding-bottom: 16px;
+  padding-bottom: 2em;
+}
+.dev-by {
+  text-align: right;
+  padding-bottom: 2.5em;
+}
+.dev-by2 {
+  color: gray;
+}
+.edgar {
+  color: green;
 }
 
 /* About */

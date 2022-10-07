@@ -11,10 +11,25 @@ const Footer = () => {
   }
   return (
     <footer className="main-footer">
-      <p className="copyright">
-        Copyright © {fullYear()} Edgar Lindo
-        <br />
-      </p>
+      <Container>
+        <Row>
+          <Col className="footer-privacy">PRIVACY POLICY</Col>
+        </Row>
+        <Row>
+          <Col></Col>
+        </Row>
+        <Row>
+          <Col>
+            <p className="copyright">
+              Copyright © {fullYear()} Edgar Lindo - All rights Reserved.
+            </p>
+          </Col>
+          <Col className="dev-by">
+            <span className="dev-by2">Developed by:</span>{" "}
+            <span className="edgar">Edgar Lindo</span>
+          </Col>
+        </Row>
+      </Container>
     </footer>
   );
 };
