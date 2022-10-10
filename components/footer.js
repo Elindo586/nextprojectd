@@ -11,51 +11,81 @@ const Footer = () => {
     return yearFormat.getFullYear();
   }
   return (
-    <footer className="main-footer">
-      <Container>
-        <Row>
-          <Col className="footer-privacy">PRIVACY POLICY</Col>
-        </Row>
+    <div>
+      <footer className="main-footer">
+        <Container>
+          <Row>
+            <Col className="footer-privacy">PRIVACY POLICY</Col>
+          </Row>
 
-        <Row>
-          <Col>
-            <p className="copyright">
-              Copyright © {fullYear()} Edgar Lindo - All rights Reserved.
-            </p>
-          </Col>
-          <Col className="dev-by">
-            <Row>
-              <Col>
-                <span className="dev-by2">Developed by:</span>{" "}
-                <span className="edgar">Edgar Lindo</span>
-              </Col>
+          <Row>
+            <Col>
+              <p className="copyright">
+                Copyright © {fullYear()} Edgar Lindo - All rights Reserved.
+              </p>
+            </Col>
+            <Col className="dev-by">
+              <Row>
+                <Col>
+                  <span className="dev-by2">Developed by:</span>{" "}
+                  <span className="edgar">Edgar Lindo</span>
+                </Col>
+              </Row>
               <Row>
                 <Col className="social-icon-col">
                   <a
                     className="footer-icon"
-                    href="https://www.youtube.com/c/EdgarLindo/videos"
+                    href="https://www.linkedin.com/in/edgarlindo/"
                     target="blank"
                   >
                     <Image
-                      src="/images/footer-images/footer-youtube.png"
+                      src="/images/footer-images/footer-linkedin.png"
                       id="youtube-spanish"
-                      alt="youtube spanish logo"
+                      alt="linkedin logo"
                       width={25}
                       height={25}
                       className="footer-icon"
-                      title="YouTube Spanish"
+                      title="LinkedIn"
                     />
                   </a>
 
                   <a
                     className="footer-icon"
-                    href="https://www.youtube.com/c/EdgarLindo/videos"
+                    href="https://twitter.com/MrEdgarLindo"
+                    target="blank"
+                  >
+                    <Image
+                      src="/images/footer-images/footer-twitter.png"
+                      id="youtube-spanish"
+                      alt="twitter logo"
+                      width={25}
+                      height={25}
+                      title="Twitter"
+                    />
+                  </a>
+                  <a
+                    className="footer-icon"
+                    href="https://www.facebook.com/RealEdgarLindo"
+                    target="blank"
+                  >
+                    <Image
+                      src="/images/footer-images/footer-facebook.png"
+                      id="youtube-spanish"
+                      alt="facebook logo"
+                      width={25}
+                      height={25}
+                      title="Facebook"
+                    />
+                  </a>
+                  <a
+                    className="footer-icon"
+                    href="https://www.youtube.com/c/EdgarLindoEL/videos"
                     target="blank"
                   >
                     <Image
                       src="/images/footer-images/footer-youtube.png"
                       id="youtube-spanish"
-                      alt="youtube spanish logo"
+                      alt="youtube english"
                       width={25}
                       height={25}
                       title="YouTube English"
@@ -67,49 +97,21 @@ const Footer = () => {
                     target="blank"
                   >
                     <Image
-                      src="/images/footer-images/footer-linkedin.png"
+                      src="/images/footer-images/footer-youtube.png"
                       id="youtube-spanish"
                       alt="youtube spanish logo"
                       width={25}
                       height={25}
-                      title="LinkedIn"
-                    />
-                  </a>
-                  <a
-                    className="footer-icon"
-                    href="https://www.youtube.com/c/EdgarLindo/videos"
-                    target="blank"
-                  >
-                    <Image
-                      src="/images/footer-images/footer-twitter.png"
-                      id="youtube-spanish"
-                      alt="youtube spanish logo"
-                      width={25}
-                      height={25}
-                      title="Twitter"
-                    />
-                  </a>
-                  <a
-                    className="footer-icon"
-                    href="https://www.youtube.com/c/EdgarLindo/videos"
-                    target="blank"
-                  >
-                    <Image
-                      src="/images/footer-images/footer-facebook.png"
-                      id="youtube-spanish"
-                      alt="youtube spanish logo"
-                      width={25}
-                      height={25}
-                      title="Facebook"
+                      title="YouTube Spanish"
                     />
                   </a>
                 </Col>
               </Row>
-            </Row>
-          </Col>
-        </Row>
-      </Container>
-    </footer>
+            </Col>
+          </Row>
+        </Container>
+      </footer>
+    </div>
   );
 };
 
