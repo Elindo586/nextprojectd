@@ -45,6 +45,7 @@ export default function Work() {
                 src="/images/edgar-suit.png"
                 id="edgar2"
                 alt="edgar lindo"
+                title="Dark gray suit"
                 width={960}
                 height={540}
               />{" "}

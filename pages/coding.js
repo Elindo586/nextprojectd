@@ -65,6 +65,7 @@ export default function Coding() {
                 src="/images/edgar-coding.png"
                 id="edgar2"
                 alt="edgar lindo"
+                title="coding websites"
                 width={960}
                 height={540}
               />{" "}
@@ -167,7 +168,7 @@ export default function Coding() {
                 SoloLearn
               </a>{" "}
               and{" "}
-              <a href="https://www.sololearn.com/home" target="blank">
+              <a href="https://www.codewars.com" target="blank">
                 CodeWars
               </a>{" "}
               <br />

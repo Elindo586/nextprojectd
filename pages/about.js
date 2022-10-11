@@ -63,6 +63,7 @@ export default function About({ db }) {
                 src="/images/me2.png"
                 id="edgar2"
                 alt="edgar lindo"
+                title="Washington D.C. trip"
                 width={960}
                 height={540}
               />{" "}

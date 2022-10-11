@@ -46,6 +46,7 @@ export default function Home({ db }) {
                   src="/images/edgar.png"
                   id="edgar"
                   alt="edgar lindo"
+                  title="In my house."
                   width={250}
                   height={250}
                 />{" "}
