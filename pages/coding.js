@@ -111,7 +111,7 @@ export default function Coding() {
               <a href="https://twitter.com/yu_angela?lang=en" target="blank">
                 {" "}
                 Angela Yu
-              </a>{" "}
+              </a>
               as the person who taught me to code, or at least taught me the
               basics to keep on learning. After taking some of her classes late
               at night, then it was the time to get rid of my CMS (Content
@@ -166,11 +166,11 @@ export default function Coding() {
               your skills are places like{" "}
               <a href="https://www.sololearn.com/home" target="blank">
                 SoloLearn
-              </a>{" "}
+              </a>
               and{" "}
               <a href="https://www.codewars.com" target="blank">
                 CodeWars
-              </a>{" "}
+              </a>
               <br />
               <br />
             </p>
