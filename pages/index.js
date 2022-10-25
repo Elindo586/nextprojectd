@@ -67,7 +67,7 @@ export default function Home({ db }) {
               my background, my interests, or my current project, maybe is
               better to write things in a public space and have fun with it.
               <br /> <br />
-              Welcome to my could house! <br />
+              Welcome to my cloud house! <br />
             </Col>
           </Col>
         </Row>
