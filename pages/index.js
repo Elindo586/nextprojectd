@@ -85,8 +85,8 @@ export default function Home({ db }) {
               machinery applications with End Users, distributors, and machine
               builders (OEMs). <br /> <br />I am by need/fun a programmer, a
               website builder. Learning to code later in life was a surprise
-              that I enjoy and I keep on learning and developing for work
-              reasons and likely for fun as well. <br /> <br />I am a family
+              that I enjoy, and I keep on learning and developing for work
+              reasons, and likely for fun as well. <br /> <br />I am a family
               guy, even when I am always busy is important to have time with
               your family specially for the lady and growing kids.
               <br />
