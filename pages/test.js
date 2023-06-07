@@ -73,7 +73,7 @@ export default function Home({ db }) {
             className="btn btn-primary"
             onClick={() => {
               setCurrent2(testing2.text);
-              console.log({ current2 });
+              console.log(testing2.text);
             }}
           >
             Click
