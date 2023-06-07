@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import twitterClient from "../api/twitterClient";
+import twitterClient from "../api/twitterClient2";
 import { cron } from "cron";
 
 import TweetText from "../../components/tweetText";
@@ -24,22 +24,27 @@ export default function TweetTest({ tweets }) {
   //       return <TweetText key={item.ref} tweet={item.tweet} />;
   //     });
 
-  const [currentTweet, setCurrentTweet] = useState("");
+  const [currentTweet, setCurrentTweet] = useState("hi");
 
   useEffect(() => {
-    async () => {
-      try {
-        await twitterClient.tweets.createTweet({
-          text: `${currentTweet}`,
-        });
-        console.dir(postTweet, {
-          depth: null,
-        });
-      } catch (e) {
-        console.log(e);
-      }
-    };
+    console.log({ currentTweet });
   }, [currentTweet]);
+
+  // useEffect(() => {
+  //   async () => {
+  //     try {
+  //       console.log({ currentTweet });
+  //       // await twitterClient.v2.tweet({
+  //       //   text: `${currentTweet}`,
+  //       // });
+  //       // console.dir(postTweet, {
+  //       //   depth: null,
+  //       // });
+  //     } catch (e) {
+  //       console.log(e);
+  //     }
+  //   };
+  // });
   //   const cronTweet1 = new cron("0 0 8 * * MON", async () => {
   // tweet1();
   //   });
@@ -50,13 +55,12 @@ export default function TweetTest({ tweets }) {
     <div className="main-about">
       <Container>
         <div>
+          Hello there {currentTweet}
           <button
             type="button"
             name="submit"
             className="btn btn-primary"
-            onClick={() => {
-              setCurrentTweet("my tweet is awesome1");
-            }}
+            onClick={() => setCurrentTweet("my tweet is awesome1")}
           >
             Click
           </button>
