@@ -72,7 +72,7 @@ export default function TweetTest({ tweets }) {
             className="btn btn-primary"
             onClick={async () => {
               try {
-                await twitterClient.v2.tweet("hello 1, what is going on?");
+                await twitterClient.v2.tweet("hello 1, what is going on no?");
               } catch (e) {
                 console.log(e);
               }
