@@ -5,11 +5,11 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import twitterClient from "../api/twitterClient2";
+import twitterClient from "../api/twitterClient";
 import { cron } from "cron";
 
-import TweetText from "../../components/tweetText";
-import tweets from "../../utils/daily-tweets.json";
+import TweetText from "../../components/text";
+import tweets from "../../utils/text.json";
 
 export async function getStaticProps() {
   return {
@@ -29,6 +29,15 @@ export default function TweetTest({ tweets }) {
   useEffect(() => {
     console.log({ currentTweet });
   }, [currentTweet]);
+
+  // const tweet1 = async () => {
+  //   try {
+  //     await twitterClient.v2.tweet(testing1.text);
+  //   } catch (e) {
+  //     console.log(e);
+  //   }
+  // };
+  const testing1 = { text: "testing  1" };
 
   // useEffect(() => {
   //   async () => {
@@ -54,13 +63,20 @@ export default function TweetTest({ tweets }) {
   return (
     <div className="main-about">
       <Container>
+        <div> {} </div> <br />
         <div>
           Hello there {currentTweet}
           <button
             type="button"
             name="submit"
             className="btn btn-primary"
-            onClick={() => setCurrentTweet("my tweet is awesome1")}
+            onClick={async () => {
+              try {
+                await twitterClient.v2.tweet("hello 1, what is going on?");
+              } catch (e) {
+                console.log(e);
+              }
+            }}
           >
             Click
           </button>
