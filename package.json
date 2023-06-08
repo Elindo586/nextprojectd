@@ -11,6 +11,7 @@
   "dependencies": {
     "bootstrap": "^5.2.1",
     "cron": "^2.3.1",
+    "fs": "^0.0.1-security",
     "next": "12.3.1",
     "nodemailer": "^6.8.0",
     "react": "18.2.0",

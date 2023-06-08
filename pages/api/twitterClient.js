@@ -1,4 +1,4 @@
-import { TwitterApi } from "twitter-api-v2";
+const { TwitterApi } = require("twitter-api-v2");
 
 const client = new TwitterApi({
   appKey: process.env.API_KEY,
@@ -11,4 +11,14 @@ const bearer = new TwitterApi(process.env.BEARER_TOKEN);
 const twitterClient = client.readWrite;
 const twitterBearer = bearer.readOnly;
 
-module.exports = { twitterClient, twitterBearer };
+// module.exports = { twitterClient, twitterBearer };
+
+const workWithTheTwitterClient = async (req, res) => {
+  // here you receive data from your client for example:
+  const body = req.body.message || "default tweet message"; // or maybe, if not message, do not send anything at all
+  await twitterClient.v2.tweet(body.message);
+
+  return res.status(200).json({ ok: "ok" });
+};
+
+export default workWithTheTwitterClient;

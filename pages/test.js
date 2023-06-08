@@ -24,10 +24,10 @@ export default function Home({ db }) {
 
   console.log({ current2 });
 
-  const getText = (e) => {
-    db.filter((item) => item.id === "1").map((item) => {
-      return <Text key={item.id} text={item.text} />;
-    });
+  const getText = () => {
+    return db // Modified here
+      .filter((item) => item.id === "1")
+      .map((item) => <Text key={item.id} text={item.text} />);
   };
 
   const testing1 = { text: "testing  1" };
@@ -51,9 +51,7 @@ export default function Home({ db }) {
             type="button"
             name="submit"
             className="btn btn-primary"
-            onClick={() => {
-              setCurrent1({ getText });
-            }}
+            onClick={() => setCurrent1([getText()])}
           >
             Click
           </button>

@@ -5,7 +5,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import twitterClient from "../api/twitterClient";
 import { cron } from "cron";
 
 import TweetText from "../../components/text";
@@ -68,13 +67,20 @@ export default function TweetTest({ tweets }) {
           Hello there {currentTweet}
           <button
             type="button"
-            name="submit"
             className="btn btn-primary"
             onClick={async () => {
               try {
-                await twitterClient.v2.tweet("hello 1, what is going on no?");
+                await fetch("/api/twitterClient", {
+                  method: "POST",
+                  headers: {
+                    "content-type": "application/json",
+                  },
+                  body: JSON.stringify({
+                    message: "It's a good day, for sure.",
+                  }),
+                });
               } catch (e) {
-                console.log(e);
+                console.log(e); // fetch doesn't really throw on 4xx range
               }
             }}
           >
