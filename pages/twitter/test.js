@@ -7,64 +7,36 @@ import Col from "react-bootstrap/Col";
 
 import { cron } from "cron";
 
-import TweetText from "../../components/text";
-import tweets from "../../utils/text.json";
+import Text from "../../components/text";
+import db from "../../utils/text.json";
 
 export async function getStaticProps() {
   return {
-    props: { tweets },
+    props: { db },
   };
 }
 
-export default function TweetTest({ tweets }) {
-  //   const theText = tweets
-  //     .filter((item) => item.id === "1")
-  //     .map((item) => {
-  //       return <TweetText key={item.ref} tweet={item.tweet} />;
-  //     });
-
-  const [currentTweet, setCurrentTweet] = useState("hi");
+export default function TweetTest({ db }) {
+  const [current1, setCurrent1] = useState("I am the current 1");
 
   useEffect(() => {
-    console.log({ currentTweet });
-  }, [currentTweet]);
+    console.log({ current1 });
+  }, [current1]);
 
-  // const tweet1 = async () => {
-  //   try {
-  //     await twitterClient.v2.tweet(testing1.text);
-  //   } catch (e) {
-  //     console.log(e);
-  //   }
-  // };
-  const testing1 = { text: "testing  1" };
+  const getText = () => {
+    return db // Modified here
+      .filter((item) => item.id === "1")
+      .map((item) => <Text key={item.id} text={item.text} />);
+  };
 
-  // useEffect(() => {
-  //   async () => {
-  //     try {
-  //       console.log({ currentTweet });
-  //       // await twitterClient.v2.tweet({
-  //       //   text: `${currentTweet}`,
-  //       // });
-  //       // console.dir(postTweet, {
-  //       //   depth: null,
-  //       // });
-  //     } catch (e) {
-  //       console.log(e);
-  //     }
-  //   };
-  // });
-  //   const cronTweet1 = new cron("0 0 8 * * MON", async () => {
-  // tweet1();
-  //   });
-
-  //   cronTweet1.start();
+  const theString = getText.toString();
 
   return (
     <div className="main-about">
       <Container>
         <div> {} </div> <br />
         <div>
-          Hello there {currentTweet}
+          Hello there {current1}
           <button
             type="button"
             className="btn btn-primary"
@@ -76,7 +48,7 @@ export default function TweetTest({ tweets }) {
                     "content-type": "application/json",
                   },
                   body: JSON.stringify({
-                    message: "It's a good day, for sure.",
+                    message: { getText },
                   }),
                 });
               } catch (e) {

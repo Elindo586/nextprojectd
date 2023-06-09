@@ -35,14 +35,6 @@ export default function Home({ db }) {
 
   return (
     <div className="main-index">
-      <div>
-        {db
-          .filter((item) => item.id === "1")
-          .map((item) => {
-            return <Text key={item.id} text={item.text} />;
-          })}
-      </div>
-
       <Container>
         <div>
           {" "}

@@ -15,8 +15,9 @@ const twitterBearer = bearer.readOnly;
 
 const workWithTheTwitterClient = async (req, res) => {
   // here you receive data from your client for example:
-  const body = req.body.message || "default tweet message"; // or maybe, if not message, do not send anything at all
-  await twitterClient.v2.tweet(body.message);
+
+  const message = req.body.message; // or maybe, if not message, do not send anything at all
+  await twitterClient.v2.tweet(message);
 
   return res.status(200).json({ ok: "ok" });
 };
