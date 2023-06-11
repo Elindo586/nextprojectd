@@ -28,8 +28,11 @@ export default function TweetTest({ db }) {
       .filter((item) => item.id === "1")
       .map((item) => <Text key={item.id} text={item.text} />);
   };
-
   const theString = getText.toString();
+
+  const obj = {};
+  const prop = "message";
+  obj[prop] = theString;
 
   return (
     <div className="main-about">
@@ -47,9 +50,7 @@ export default function TweetTest({ db }) {
                   headers: {
                     "content-type": "application/json",
                   },
-                  body: JSON.stringify({
-                    message: { getText },
-                  }),
+                  body: JSON.stringify({ message: getText() }),
                 });
               } catch (e) {
                 console.log(e); // fetch doesn't really throw on 4xx range
