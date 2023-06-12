@@ -5,9 +5,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import { cron } from "cron";
+import { CronJob } from "cron";
 
-import Text from "../../components/text";
 import db from "../../utils/text.json";
 
 export async function getStaticProps() {
@@ -17,45 +16,42 @@ export async function getStaticProps() {
 }
 
 export default function TweetTest({ db }) {
-  const [current1, setCurrent1] = useState("I am the current 1");
+  const [current1, setCurrent1] = useState(0);
 
   useEffect(() => {
     console.log({ current1 });
-  }, [current1]);
 
-  const getText = () => {
-    return db // Modified here
-      .filter((item) => item.id === "1")
-      .map((item) => <Text key={item.id} text={item.text} />);
-  };
-  const theString = getText.toString();
-
-  const obj = {};
-  const prop = "message";
-  obj[prop] = theString;
+    const getText = () => {
+      const target = db.find((item) => item.id === "1");
+      if (!target) return "";
+      return target.text;
+    };
+    const cronJob1 = new CronJob("06 10 * * * ", async () => {
+      try {
+        await fetch("/api/twitterClient", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify({ message: getText() }),
+        });
+      } catch (e) {
+        console.log(e); // fetch doesn't really throw on 4xx range
+      }
+    });
+    cronJob1.start();
+  }, [current1, db]);
 
   return (
     <div className="main-about">
       <Container>
         <div> {} </div> <br />
         <div>
-          Hello there {current1}
+          {/* Hello there {current1} */}
           <button
             type="button"
             className="btn btn-primary"
-            onClick={async () => {
-              try {
-                await fetch("/api/twitterClient", {
-                  method: "POST",
-                  headers: {
-                    "content-type": "application/json",
-                  },
-                  body: JSON.stringify({ message: getText() }),
-                });
-              } catch (e) {
-                console.log(e); // fetch doesn't really throw on 4xx range
-              }
-            }}
+            onClick={() => setCurrent1(1)}
           >
             Click
           </button>
