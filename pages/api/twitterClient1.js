@@ -24,16 +24,27 @@ const getText1 = () => {
   if (!target) return "";
   return JSON.stringify(target.text);
 };
+const message = getText1();
 
-// module.exports = { twitterClient, twitterBearer };
-
-const workWithTheTwitterClient = async (req, res) => {
-  // here you receive data from your client for example:
-
-  const message = getText1(); // or maybe, if not message, do not send anything at all
-  await twitterClient.v2.tweet(message);
-
-  return res.status(200).json({ ok: "ok" });
+const tweet1 = async () => {
+  try {
+    await twitterClient.v2.tweet(message);
+  } catch (e) {
+    console.log(e);
+  }
 };
 
-export default workWithTheTwitterClient;
+tweet1();
+
+// // module.exports = { twitterClient, twitterBearer };
+
+// const workWithTheTwitterClient = async (req, res) => {
+//   // here you receive data from your client for example:
+
+//   const message = getText1(); // or maybe, if not message, do not send anything at all
+//   await twitterClient.v2.tweet(message);
+
+//   return res.status(200).json({ ok: "ok" });
+// };
+
+// export default workWithTheTwitterClient;
