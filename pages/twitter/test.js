@@ -16,19 +16,24 @@ export async function getStaticProps() {
 }
 
 export default function TweetTest({ db }) {
-  const [current1, setCurrent1] = useState();
+  const [current1, setCurrent1] = useState(null);
+
+  // useEffect(() => {
+  //   console.log(current1);
+  // }, [current1]);
 
   useEffect(() => {
-    console.log(current1);
-  }, [current1]);
+    console.log({ current1 });
+    if (current1 === null) return;
 
-  useEffect(() => {
     const getText1 = () => {
       const target = db.find((item) => item.id === "1");
       if (!target) return "";
       return target.text;
     };
-    const cronJob1 = new CronJob("01 12 * * * ", async () => {
+    const controller = new AbortController();
+
+    const cronJob1 = new CronJob("25 8 * * * ", async () => {
       try {
         await fetch("/api/twitterClient", {
           method: "POST",
@@ -36,38 +41,50 @@ export default function TweetTest({ db }) {
             "content-type": "application/json",
           },
           body: JSON.stringify({ message: getText1() }),
+          signal: controller.signal,
         });
       } catch (e) {
+        if (controller.signal.aborted) return; // do nothing
         console.log(e); // fetch doesn't really throw on 4xx range
       }
     });
     cronJob1.start();
-    // cronJob1.stop();
+    return () => {
+      cronJob1.stop();
+      controller.abort();
+    };
   }, [current1, db]);
 
   // useEffect(() => {
-  //   {
-  //     const getText2 = () => {
-  //       const target = db.find((item) => item.id === "2");
-  //       if (!target) return "";
-  //       return target.text;
-  //     };
-  //     const cronJob2 = new CronJob("39 11 * * * ", async () => {
-  //       try {
-  //         await fetch("/api/twitterClient", {
-  //           method: "POST",
-  //           headers: {
-  //             "content-type": "application/json",
-  //           },
-  //           body: JSON.stringify({ message: getText2() }),
-  //         });
-  //       } catch (e) {
-  //         console.log(e); // fetch doesn't really throw on 4xx range
-  //       }
-  //     });
-  //     cronJob2.start();
-  //     // cronJob1.stop();
-  //   }
+  //   if (current1 === null) return;
+
+  //   const getText2 = () => {
+  //     const target2 = db.find((item) => item.id === "2");
+  //     if (!target2) return "";
+  //     return target2.text;
+  //   };
+  //   const controller2 = new AbortController();
+
+  //   const cronJob2 = new CronJob("30 13 * * * ", async () => {
+  //     try {
+  //       await fetch("/api/twitterClient", {
+  //         method: "POST",
+  //         headers: {
+  //           "content-type": "application/json",
+  //         },
+  //         body: JSON.stringify({ message: getText2() }),
+  //         signal: controller2.signal,
+  //       });
+  //     } catch (e) {
+  //       if (controller2.signal.aborted) return; // do nothing
+  //       console.log(e); // fetch doesn't really throw on 4xx range
+  //     }
+  //   });
+  //   cronJob2.start();
+  //   return () => {
+  //     cronJob2.stop();
+  //     controller2.abort();
+  //   };
   // }, [current1, db]);
 
   return (
