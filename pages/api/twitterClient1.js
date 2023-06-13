@@ -36,6 +36,4 @@ const workWithTheTwitterClient = async (req, res) => {
   return res.status(200).json({ ok: "ok" });
 };
 
-workWithTheTwitterClient();
-
 export default workWithTheTwitterClient;
