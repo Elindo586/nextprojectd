@@ -2,7 +2,7 @@
   "crons": [
     {
       "path": "/api/twitterClient1",
-      "schedule": "48 13 * * *"
+      "schedule": "53 13 * * *"
     }
   ]
 }
