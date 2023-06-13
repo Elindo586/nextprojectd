@@ -22,7 +22,7 @@ export async function getStaticProps() {
 const getText1 = () => {
   const target = db.find((item) => item.id === "1");
   if (!target) return "";
-  return target.text;
+  return JSON.stringify(target.text);
 };
 
 // module.exports = { twitterClient, twitterBearer };
