@@ -33,7 +33,7 @@ export default function TweetTest({ db }) {
     };
     const controller = new AbortController();
 
-    const cronJob1 = new CronJob("25 8 * * * ", async () => {
+    const cronJob1 = new CronJob("50 8 * * * ", async () => {
       try {
         await fetch("/api/twitterClient", {
           method: "POST",
