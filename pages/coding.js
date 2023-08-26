@@ -112,13 +112,13 @@ export default function Coding() {
                 {" "}
                 Angela Yu
               </a>
-              as the person who taught me to code, or at least taught me the
-              basics to keep on learning. After taking some of her classes late
-              at night, then it was the time to get rid of my CMS (Content
+              &nbsp; as the person who taught me to code, or at least taught me
+              the basics to keep on learning. After taking some of her classes
+              late at night, then it was the time to get rid of my CMS (Content
               Management System) and start coding websites on my own without any
-              software help.
+              CMS.
             </p>
-            <br /> <br />
+            <br />
             <h5> The tools I am using are:</h5>
             <ul>
               <li>HTML</li>
@@ -166,11 +166,16 @@ export default function Coding() {
               your skills are places like{" "}
               <a href="https://www.sololearn.com/home" target="blank">
                 SoloLearn
-              </a>
-              and{" "}
+              </a>{" "}
+              ,&nbsp;
               <a href="https://www.codewars.com" target="blank">
                 CodeWars
+              </a>{" "}
+              &nbsp;and{" "}
+              <a href="https://www.freecodecamp.org/" target="blank">
+                Free Code Camp
               </a>
+              .
               <br />
               <br />
             </p>
