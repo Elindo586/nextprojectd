@@ -2,6 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/general.css";
 
 import MainNav from "../components/nav-main";
+import ChatContainer from "../components/chat/chat-container";
+import Button from "../components/chat/button";
 import Footer from "../components/footer";
 import Script from "next/script";
 
@@ -49,6 +51,11 @@ function MyApp({ Component, pageProps }) {
       </nav>
       <div className="margins">
         <Component {...pageProps} />
+      </div>
+      <div>
+        {" "}
+        <ChatContainer />
+        <Button />
       </div>
       <footer>
         <Footer />

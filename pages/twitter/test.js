@@ -55,38 +55,6 @@ export default function TweetTest({ db }) {
     };
   }, [current1, db]);
 
-  // useEffect(() => {
-  //   if (current1 === null) return;
-
-  //   const getText2 = () => {
-  //     const target2 = db.find((item) => item.id === "2");
-  //     if (!target2) return "";
-  //     return target2.text;
-  //   };
-  //   const controller2 = new AbortController();
-
-  //   const cronJob2 = new CronJob("30 13 * * * ", async () => {
-  //     try {
-  //       await fetch("/api/twitterClient", {
-  //         method: "POST",
-  //         headers: {
-  //           "content-type": "application/json",
-  //         },
-  //         body: JSON.stringify({ message: getText2() }),
-  //         signal: controller2.signal,
-  //       });
-  //     } catch (e) {
-  //       if (controller2.signal.aborted) return; // do nothing
-  //       console.log(e); // fetch doesn't really throw on 4xx range
-  //     }
-  //   });
-  //   cronJob2.start();
-  //   return () => {
-  //     cronJob2.stop();
-  //     controller2.abort();
-  //   };
-  // }, [current1, db]);
-
   return (
     <div className="main-about">
       <Container>
