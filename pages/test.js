@@ -8,63 +8,31 @@ import Col from "react-bootstrap/Col";
 import Text from "../components/text";
 import db from "../utils/text.json";
 
-export async function getStaticProps() {
-  return {
-    props: { db },
-  };
-}
+// const hiddenStyles = {
+//   position: "absolute",
+//   overflow: "hidden",
+//   clip: "rect(0 0 0 0)",
+//   height: 1,
+//   width: 1,
+//   margin: -1,
+//   padding: 0,
+//   border: 0,
+// };
 
-export default function Home({ db }) {
-  const [current1, setCurrent1] = useState("current1");
-  const [current2, setCurrent2] = useState("");
-
-  useEffect(() => {
-    console.log({ current1 });
-  }, [current1]);
-
-  console.log({ current2 });
-
-  const getText = () => {
-    return db // Modified here
-      .filter((item) => item.id === "1")
-      .map((item) => <Text key={item.id} text={item.text} />);
-  };
-
-  const testing1 = { text: "testing  1" };
-  const testing2 = { text: "testing 2" };
-
+export default function App() {
   return (
-    <div className="main-index">
-      <Container>
-        <div>
-          {" "}
-          Hello there {current1}
-          <button
-            type="button"
-            name="submit"
-            className="btn btn-primary"
-            onClick={() => setCurrent1([getText()])}
-          >
-            Click
-          </button>
-        </div>{" "}
-        <br />
-        <div>
-          Hello there {current2}
-          <button
-            type="button"
-            name="submit"
-            className="btn btn-primary"
-            onClick={() => {
-              setCurrent2(testing2.text);
-              console.log("hello");
-            }}
-          >
-            Click
-          </button>
-        </div>{" "}
-        <br />
-      </Container>
+    <div className="App">
+      <h1>Hello CodeSandbox</h1>
+      <h2>Start editing to see some magic happen!</h2>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          console.count("submit");
+        }}
+      >
+        <input type="text" />
+        <button type="submit">btn</button>
+      </form>
     </div>
   );
 }

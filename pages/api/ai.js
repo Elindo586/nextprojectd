@@ -8,7 +8,9 @@ const workWithLangchain = async (req, res) => {
     openAIApiKey: process.env.OPENAI_API_KEY,
   });
 
-  const message = req.body.data;
+  const message = req.body.text;
+
+  console.log(message);
 
   const template =
     "Be very funny when answering questions\n Question: {question}";
@@ -21,6 +23,7 @@ const workWithLangchain = async (req, res) => {
     question: message,
   });
   console.log(result);
+  res.status(200).json({ ok: "ok" });
 };
 
 export default workWithLangchain;
