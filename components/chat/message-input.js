@@ -93,13 +93,11 @@ const MessageInput = () => {
 
     console.log(botText);
 
-    setText(botText);
-
     console.log(text);
 
     const botMessage = {
       aiMessage: true,
-      text,
+      text: botText,
       id: uuid(),
       animate: true,
     };
