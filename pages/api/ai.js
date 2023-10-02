@@ -2,28 +2,37 @@ import { OpenAI } from "langchain/llms/openai";
 import { PromptTemplate } from "langchain/prompts";
 import { LLMChain } from "langchain/chains";
 
-const workWithLangchain = async (req, res) => {
-  const model = new OpenAI({
-    temperature: 0,
-    openAIApiKey: process.env.OPENAI_API_KEY,
-  });
+// import { OpenAI } from "langchain/llms/openai";
+import { BufferMemory } from "langchain/memory";
+import { ConversationChain } from "langchain/chains";
 
-  const message = req.body.text;
+let model;
+let memory;
+let chain;
+export default async function handler(req, res) {
+  if (req.method === "POST") {
+    const { input, firstMsg } = req.body;
 
-  console.log(message);
+    if (!input) {
+      throw new Error("No input!");
+    }
 
-  const template =
-    "Be very funny when answering questions\n Question: {question}";
+    if (firstMsg) {
+      console.log("initializing chain");
+      model = new OpenAI({
+        openAIApiKey: process.env.OPENAI_API_KEY,
+        modelName: "gpt-3.5-turbo",
+        temperature: 0,
+      });
+      memory = new BufferMemory();
+      chain = new ConversationChain({ llm: model, memory: memory });
+    }
 
-  const prompt = new PromptTemplate({ template, inputVariables: ["question"] });
-
-  const chain = new LLMChain({ llm: model, prompt });
-
-  const result = await chain.call({
-    question: message,
-  });
-  console.log(result);
-  res.status(200).json({ ok: "ok" });
-};
-
-export default workWithLangchain;
+    console.log({ input });
+    const response = await chain.call({ input });
+    console.log({ response });
+    return res.status(200).json({ output: response });
+  } else {
+    res.status(405).json({ message: "Only POST is allowed" });
+  }
+}

@@ -18,10 +18,6 @@ export async function getStaticProps() {
 export default function TweetTest({ db }) {
   const [current1, setCurrent1] = useState(null);
 
-  // useEffect(() => {
-  //   console.log(current1);
-  // }, [current1]);
-
   useEffect(() => {
     console.log({ current1 });
     if (current1 === null) return;

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
     "bootstrap": "^5.2.1",
     "cron": "^2.3.1",
     "fs": "^0.0.1-security",
@@ -20,9 +21,12 @@
     "react-bootstrap": "^2.8.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.11.0",
+    "react-redux": "^8.1.2",
     "sharp": "^0.31.1",
+    "socket.io": "^4.7.2",
     "twitter-api-sdk": "^1.2.1",
-    "twitter-api-v2": "^1.15.0"
+    "twitter-api-v2": "^1.15.0",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "eslint": "8.24.0",

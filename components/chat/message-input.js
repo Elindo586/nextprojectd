@@ -1,92 +1,173 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { store } from "./store";
 import Link from "next/link";
 import Image from "next/image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import { v4 as uuid } from "uuid";
+import {
+  addMessage,
+  addBotMessage,
+  setSelectedConversationId,
+  setConversationHistory,
+  setConversations,
+} from "./dashboard-slice";
+
 const MessageInput = () => {
-  const closeForm = () => {
-    document.getElementById("chat-container-id").style.display = "none";
-    document.getElementById("chat-button-id").style.display = "block";
-  };
   const [text, setText] = useState("");
+  const [ui, setUi] = useState(false);
 
-  const handleSubmit = (e) => {
+  // get session history
+
+  // const sessionId = localStorage.getItem("sessionId");
+
+  // socket.on("session-details", (data) => {
+  //   const { sessionId, conversations } = data;
+
+  // (data) => {
+  //   const { sessionId, conversations } = data;
+  //   localStorage.setItem("sessionId", sessionId);
+  //   store.dispatch(setConversations(conversations));
+  // };
+
+  useEffect(() => {
+    if (ui) {
+      document.getElementById("chat-container-id").style.display = "none";
+      document.getElementById("chat-button-id").style.display = "block";
+      setUi(false);
+    }
+  }, [ui]);
+
+  const dispatch = useDispatch();
+
+  const selectedConversationId = useSelector(
+    (state) => state.dashboard.selectedConversationId
+  );
+
+  const proceedMessage = async () => {
+    const message = {
+      aiMessage: false,
+      text,
+      id: uuid(),
+      animate: false,
+    };
+    console.log(message);
+    const newText = JSON.stringify(message.text);
+    console.log(newText);
+
+    const conversationId =
+      selectedConversationId === null ? uuid() : selectedConversationId;
+
+    // append to local store
+    dispatch(
+      addMessage({
+        conversationId,
+        message,
+      })
+    );
+    dispatch(setSelectedConversationId(conversationId));
+
+    // send to server
+
+    let data = {
+      newText,
+    };
+    const response = await fetch("/api/ai1", {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+    // reset value of input
+    setText("");
+
+    const searchRes = await response.json();
+    console.log(searchRes.output.text);
+
+    const botText = searchRes.output.text;
+
+    console.log(botText);
+
+    setText(botText);
+
+    console.log(text);
+
+    const botMessage = {
+      aiMessage: true,
+      text,
+      id: uuid(),
+      animate: true,
+    };
+
+    dispatch(
+      addBotMessage({
+        conversationId,
+        botMessage,
+      })
+    );
+    dispatch(setSelectedConversationId(conversationId));
+
+    setText("");
+  };
+
+  // const handleSubmit = (e) => {
+  //   if (text.length > 0) {
+  //     // e.preventDefault();
+  //     console.log("Sending");
+  //     let data = {
+  //       text,
+  //     };
+  //   }
+  // };
+
+  const handleSendMessage = () => {
     if (text.length > 0) {
-      e.preventDefault();
-      console.log("Sending");
-
-      let data = {
-        text,
-      };
-
-      fetch("/api/ai", {
-        method: "POST",
-        headers: {
-          Accept: "application/json, text/plain, */*",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      }).then((res) => {
-        console.log("Response received");
-
-        if (res.status === 200) {
-          console.log("Response succeeded!");
-          setText("");
-        }
-      });
+      // handleSubmit();
+      proceedMessage();
     }
   };
-  // const handleSendMessage = () => {
-  //   if (text.length > 0) {
-  //     handleSubmit();
-  //   }
-  // };
-  // const handleKeyPressed = (event) => {
-  //   if (event.code === "Enter" && text.length > 0) {
-  //     handleSubmit();
-  //   }
-  // };
-
-  // const hiddenStyles = {
-  //   position: "absolute",
-  //   overflow: "hidden",
-  //   clip: "rect(0 0 0 0)",
-  //   height: 1,
-  //   width: 1,
-  //   margin: -1,
-  //   padding: 0,
-  //   border: 0,
-  // };
+  const handleKeyPressed = (event) => {
+    if (event.key === "Enter" && text.length > 0) {
+      // handleSubmit();
+      proceedMessage();
+    }
+  };
 
   return (
     <Container>
-      <form onSubmit={handleSubmit}>
-        <Row>
-          <input
-            className="input-container"
-            type="text"
-            id="chat-input"
-            name="chat-input"
-            placeholder="Enter your message"
-            value={text}
-            onChange={(e) => setText(e.target.value)}
-          ></input>
-        </Row>
-        <Row className="btn-container">
-          <Col>
-            <button onClick={closeForm} className="btn-close2">
-              Close
-            </button>
-          </Col>
-          <Col>
-            <button className="btn-send" type="submit">
-              Send
-            </button>
-          </Col>
-        </Row>
-      </form>
+      <Row>
+        <input
+          className="input-container"
+          type="text"
+          id="chat-input"
+          name="chat-input"
+          placeholder="Enter your message"
+          value={text}
+          onChange={(e) => setText(e.target.value)}
+          onKeyDown={handleKeyPressed}
+        ></input>
+      </Row>
+      <Row className="btn-container">
+        <Col>
+          <button
+            disabled={ui}
+            onClick={() => setUi(true)}
+            className="btn-close2"
+          >
+            Close
+          </button>
+        </Col>
+        <Col>
+          <button className="btn-send" onClick={handleSendMessage}>
+            Send
+          </button>
+        </Col>
+      </Row>
     </Container>
   );
 };

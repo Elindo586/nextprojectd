@@ -1,15 +1,26 @@
 import { React, useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { setSelectedConversationId } from "./dashboard-slice";
+import { GrUser } from "react-icons/gr";
 import { FaRobot } from "react-icons/fa6";
+import Image from "next/image";
 import Message from "./message";
+
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 const MessageDisplay = () => {
-  //   const closeForm = () => {
-  //     document.getElementById("chat-container-id").style.display = "none";
-  //     document.getElementById("chat-button-id").style.display = "block";
-  //   };
+  // const dispatch = useDispatch();
+  // const conversations = useSelector((state) => state.dashboard.conversations);
+
+  const { selectedConversationId, conversations } = useSelector(
+    (state) => state.dashboard
+  );
+
+  const conversation = conversations.find(
+    (c) => c.id === selectedConversationId
+  );
 
   return (
     <Container>
@@ -20,8 +31,14 @@ const MessageDisplay = () => {
         </Col>
       </Row>
       <Row className="chat-display">
-        <Message content="hi" aiMessage={false} />
-        <Message content="I'll be waking up in a week or so" aiMessage={true} />
+        {conversation?.messages.map((m, index) => (
+          <Message
+            key={m.id}
+            text={m.text}
+            aiMessage={m.aiMessage}
+            animate={index === conversation.messages.length - 1 && m.aiMessage}
+          />
+        ))}
       </Row>
     </Container>
   );
