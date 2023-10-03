@@ -25,7 +25,10 @@ const MessageDisplay = () => {
   return (
     <Container>
       <Row className="chat-display-header">
-        <Col className="col-10"> I am on vacations for now. </Col>
+        <Col className="col-10 ai-col">
+          {" "}
+          <p>I am just chilling.</p>{" "}
+        </Col>
         <Col className="col-2">
           <FaRobot />
         </Col>

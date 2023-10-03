@@ -14,11 +14,13 @@ import {
   setSelectedConversationId,
   setConversationHistory,
   setConversations,
+  deleteConversations,
 } from "./dashboard-slice";
 
 const MessageInput = () => {
   const [text, setText] = useState("");
   const [ui, setUi] = useState(false);
+  const [firstMsg, setFirstMsg] = useState(true);
 
   // get session history
 
@@ -33,19 +35,20 @@ const MessageInput = () => {
   //   store.dispatch(setConversations(conversations));
   // };
 
-  useEffect(() => {
-    if (ui) {
-      document.getElementById("chat-container-id").style.display = "none";
-      document.getElementById("chat-button-id").style.display = "block";
-      setUi(false);
-    }
-  }, [ui]);
-
   const dispatch = useDispatch();
 
   const selectedConversationId = useSelector(
     (state) => state.dashboard.selectedConversationId
   );
+
+  useEffect(() => {
+    if (ui) {
+      dispatch(deleteConversations());
+      document.getElementById("chat-container-id").style.display = "none";
+      document.getElementById("chat-button-id").style.display = "block";
+      setUi(false);
+    }
+  }, [ui, dispatch]);
 
   const proceedMessage = async () => {
     const message = {
@@ -74,8 +77,11 @@ const MessageInput = () => {
 
     let data = {
       newText,
+      firstMsg,
     };
-    const response = await fetch("/api/ai1", {
+
+    console.log(data);
+    const response = await fetch("/api/ai2", {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
@@ -85,6 +91,7 @@ const MessageInput = () => {
     });
     // reset value of input
     setText("");
+    setFirstMsg(false);
 
     const searchRes = await response.json();
     console.log(searchRes.output.text);

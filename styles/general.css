@@ -210,6 +210,9 @@
   color: white;
   padding-left: 10px;
 }
+.ai-col:before {
+  content: "AI-Luis.";
+}
 .message_container {
   position: relative;
   margin-top: 5px;
