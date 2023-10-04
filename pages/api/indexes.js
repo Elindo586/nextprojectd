@@ -1,7 +1,7 @@
-const TextLoader = require("langchain/document_loaders/fs/tex");
-const CharacterTextSplitter = require("langchain/text_splitte");
-const OpenAIEmbeddings = require("langchain/embeddings/openai");
-const FaissStore = require("langchain/vectorstores/faiss");
+const { OpenAIEmbeddings } = require("langchain/embeddings/openai");
+const { FaissStore } = require("langchain/vectorstores/faiss");
+const { CharacterTextSplitter } = require("langchain/text_splitter");
+const { TextLoader } = require("langchain/document_loaders/fs/text");
 
 // import { TextLoader } from "langchain/document_loaders/fs/text";
 // import { CharacterTextSplitter } from "langchain/text_splitter";
@@ -26,5 +26,5 @@ const indexes = async (req, res) => {
   res.status(200).json({ ok: ok });
 };
 
-// module.exports = { indexes };
-export default indexes;
+module.exports = { indexes };
+// export default indexes;
