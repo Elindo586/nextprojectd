@@ -1,7 +1,12 @@
-import { TextLoader } from "langchain/document_loaders/fs/text";
-import { CharacterTextSplitter } from "langchain/text_splitter";
-import { OpenAIEmbeddings } from "langchain/embeddings/openai";
-import { FaissStore } from "langchain/vectorstores/faiss";
+const TextLoader = require("langchain/document_loaders/fs/tex");
+const CharacterTextSplitter = require("langchain/text_splitte");
+const OpenAIEmbeddings = require("langchain/embeddings/openai");
+const FaissStore = require("langchain/vectorstores/faiss");
+
+// import { TextLoader } from "langchain/document_loaders/fs/text";
+// import { CharacterTextSplitter } from "langchain/text_splitter";
+// import { OpenAIEmbeddings } from "langchain/embeddings/openai";
+// import { FaissStore } from "langchain/vectorstores/faiss";
 
 const indexes = async (req, res) => {
   const loader = new TextLoader("../../pages/api/restaurant.txt");
@@ -21,4 +26,5 @@ const indexes = async (req, res) => {
   res.status(200).json({ ok: ok });
 };
 
+// module.exports = { indexes };
 export default indexes;
