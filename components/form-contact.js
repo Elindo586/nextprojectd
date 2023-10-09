@@ -15,7 +15,7 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     if (firstName === "") {
       alert("Please enter your name.");
-    } else if ((email = "")) {
+    } else if (email === "") {
       alert("Please enter a valid email.");
     } else {
       e.preventDefault();
