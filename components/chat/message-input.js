@@ -81,7 +81,7 @@ const MessageInput = () => {
     };
 
     console.log(data);
-    const response = await fetch("/api/ai2", {
+    const response = await fetch("/api/usestore2", {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
@@ -94,13 +94,11 @@ const MessageInput = () => {
     setFirstMsg(false);
 
     const searchRes = await response.json();
-    console.log(searchRes.output.text);
+    console.log(searchRes.output);
 
     const botText = searchRes.output.text;
 
     console.log(botText);
-
-    console.log(text);
 
     const botMessage = {
       aiMessage: true,

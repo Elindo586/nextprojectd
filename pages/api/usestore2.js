@@ -1,3 +1,7 @@
+import { ChatOpenAI } from "langchain/chat_models/openai";
+import { ConversationalRetrievalQAChain } from "langchain/chains";
+import { BufferMemory } from "langchain/memory";
+
 import { TextLoader } from "langchain/document_loaders/fs/text";
 import { CharacterTextSplitter } from "langchain/text_splitter";
 import { OpenAIEmbeddings } from "langchain/embeddings/openai";
@@ -11,6 +15,9 @@ import {
   RetrievalQAChain,
   loadQAStuffChain,
 } from "langchain/chains";
+
+let chain;
+let result;
 
 let loader;
 let docs;
@@ -45,20 +52,42 @@ const useStore = async (req, res) => {
 
     console.log(message);
     if (firstOne) {
-      model1 = new OpenAI({
+      model1 = new ChatOpenAI({
+        modelName: "gpt-4",
         openAIApiKey: process.env.OPENAI_API_KEY,
         temperature: 0,
       });
 
       embeddings = new OpenAIEmbeddings();
       vectoreStore = await FaissStore.load("./", embeddings);
-      vectorStoreRetriever = vectoreStore.asRetriever();
-
-      vectorChain = RetrievalQAChain.fromLLM(model1, vectorStoreRetriever);
     }
+    chain = ConversationalRetrievalQAChain.fromLLM(
+      model1,
+      vectoreStore.asRetriever(),
+      {
+        memory: new BufferMemory({
+          memoryKey: "chat_history", // Must be set to "chat_history"
+          inputKey: "question", // The key for the input to the chain
+          outputKey: "text", // The key for the final conversational output of the chain
+          returnMessages: true,
+          // questionGeneratorChainOptions: {
+          //   llm: fasterModel,
+          // },
+        }),
+      }
+    );
+    let chatHistory = "";
+    result = await chain.call({
+      question: message,
+      chat_history: chatHistory,
+      // Add the new user message here
+      // { role: 'user', content: message },
+    });
+    chatHistory = `${message}\n${result.text}`;
 
-    const result = await vectorChain.call({
-      query: message,
+    const followUpRes = await chain.call({
+      question: "Was that nice?",
+      chat_history: chatHistory,
     });
 
     console.log(result);
