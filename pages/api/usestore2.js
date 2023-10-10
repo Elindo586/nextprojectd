@@ -97,11 +97,12 @@ const useStore = async (req, res) => {
       question: message,
       chat_history: chatHistory,
     });
+    const stringResult = JSON.stringify(result.text);
 
     console.log(result);
     console.log(followUpRes);
 
-    return res.status(200).json({ output: JSON.stringify(result.text) });
+    return res.status(200).json({ output: stringResult });
   } else {
     res.status(405).json({ say: "Only POST is allowed" });
   }
