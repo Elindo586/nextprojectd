@@ -88,7 +88,6 @@ const MessageInput = () => {
       headers: {
         Accept: "application/json, text/plain, */*",
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
       },
       body: JSON.stringify(data),
     });
