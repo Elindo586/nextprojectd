@@ -96,9 +96,9 @@ const MessageInput = () => {
     setFirstMsg(false);
 
     const searchRes = await response.json();
-    console.log(searchRes.output);
+    console.log(searchRes);
 
-    const botText = searchRes.output;
+    const botText = searchRes;
 
     console.log(botText);
 
