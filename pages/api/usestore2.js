@@ -101,7 +101,7 @@ const useStore = async (req, res) => {
     console.log(result);
     console.log(followUpRes);
 
-    return res.status(200).send({ output: result });
+    return res.status(200).json({ output: JSON.stringify(result.text) });
   } else {
     res.status(405).json({ say: "Only POST is allowed" });
   }

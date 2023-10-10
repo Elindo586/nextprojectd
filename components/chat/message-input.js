@@ -98,7 +98,7 @@ const MessageInput = () => {
     const searchRes = await response.json();
     console.log(searchRes.output);
 
-    const botText = searchRes.output.text;
+    const botText = searchRes.output;
 
     console.log(botText);
 
