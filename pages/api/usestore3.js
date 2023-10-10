@@ -1,6 +1,11 @@
-import { ChatOpenAI } from "langchain/chat_models/openai";
+// import { ChatOpenAI } from "langchain/chat_models/openai";
 import { ConversationalRetrievalQAChain } from "langchain/chains";
 import { BufferMemory } from "langchain/memory";
+
+import { initializeAgentExecutorWithOptions } from "langchain/agents";
+import { ChatOpenAI } from "langchain/chat_models/openai";
+// import { SerpAPI } from "langchain/tools";
+import { Calculator } from "langchain/tools/calculator";
 
 import { TextLoader } from "langchain/document_loaders/fs/text";
 import { CharacterTextSplitter } from "langchain/text_splitter";
@@ -66,37 +71,42 @@ const useStore = async (req, res) => {
     \`\`\`
     Your answer:`;
 
-    chain = ConversationalRetrievalQAChain.fromLLM(
-      model1,
-      vectorstore.asRetriever(),
-      {
-        memory: new BufferMemory({
-          memoryKey: "chat_history", // Must be set to "chat_history"
-          inputKey: "question", // The key for the input to the chain
-          outputKey: "text", // The key for the final conversational output of the chain
-          returnMessages: true,
-          questionGeneratorChainOptions: {
-            template: CUSTOM_QUESTION_GENERATOR_CHAIN_PROMPT,
-          },
-        }),
-      }
-    );
+    const tools = [new Calculator()];
+
+    // chain = ConversationalRetrievalQAChain.fromLLM(
+    //   model1,
+    //   vectorstore.asRetriever(),
+    //   {
+    //     memory: new BufferMemory({
+    //       memoryKey: "chat_history", // Must be set to "chat_history"
+    //       inputKey: "question", // The key for the input to the chain
+    //       outputKey: "text", // The key for the final conversational output of the chain
+    //       returnMessages: true,
+    //       questionGeneratorChainOptions: {
+    //         template: CUSTOM_QUESTION_GENERATOR_CHAIN_PROMPT,
+    //       },
+    //     }),
+    //   }
+    // );
+
     chatHistory = "";
 
-    result = await chain.call({
-      question: message,
-      chat_history: chatHistory,
+    const executor = await initializeAgentExecutorWithOptions(tools, model1, {
+      agentType: "chat-conversational-react-description",
+      memoryKey: "chat_history",
+      verbose: true,
     });
-    chatHistory = [
-      { role: "system", content: "you are a helpful assistant." },
-      { role: "user", content: `${message}` },
-      { role: "assistant", content: `${result.text}` },
-    ];
 
-    followUpRes = await chain.call({
+    result = await executor.run({
       question: message,
       chat_history: chatHistory,
     });
+    chatHistory = `${message}\n${result.text}`;
+
+    // followUpRes = await chain.call({
+    //   question: message,
+    //   chat_history: chatHistory,
+    // });
 
     console.log(result);
     console.log(followUpRes);
