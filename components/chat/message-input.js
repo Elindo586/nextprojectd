@@ -95,12 +95,16 @@ const MessageInput = () => {
     setText("");
     setFirstMsg(false);
 
-    const searchRes = await response.json();
-    console.log(searchRes.text);
+    let searchRes;
 
-    const botText = searchRes;
+    try {
+      searchRes = await response.json();
+      console.log(searchRes.text);
+    } catch (err) {
+      console.log("Error parsing", err);
+    }
 
-    console.log(botText);
+    const botText = searchRes.text;
 
     const botMessage = {
       aiMessage: true,

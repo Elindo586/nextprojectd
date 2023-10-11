@@ -59,13 +59,9 @@ const useStore4 = async (req, res) => {
       query: message,
     });
 
-    const stringResult = JSON.stringify(result.text);
-    const stringResult22 = JSON.stringify(result.sourceDocuments[0].text);
-    const parseResult = JSON.parse(stringResult);
+    console.log(result);
 
-    console.log(parseResult);
-
-    return res.status(200).json(parseResult);
+    return res.status(200).json(result);
   } else {
     res.status(405).json({ say: "Only POST is allowed" });
   }
