@@ -83,7 +83,7 @@ const MessageInput = () => {
     };
 
     console.log(data);
-    const response = await fetch("/api/usestore2", {
+    const response = await fetch("/api/usestore4", {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
@@ -96,7 +96,7 @@ const MessageInput = () => {
     setFirstMsg(false);
 
     const searchRes = await response.json();
-    console.log(searchRes);
+    console.log(searchRes.text);
 
     const botText = searchRes;
 
