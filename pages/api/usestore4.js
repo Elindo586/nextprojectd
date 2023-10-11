@@ -60,7 +60,7 @@ const useStore4 = async (req, res) => {
     });
 
     const stringResult = JSON.stringify(result.text);
-    const stringResult2 = JSON.stringify(result.sourceDocuments[0].text);
+    const stringResult22 = JSON.stringify(result.sourceDocuments[0].text);
     const parseResult = JSON.parse(stringResult);
 
     console.log(parseResult);
