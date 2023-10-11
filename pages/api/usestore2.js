@@ -24,7 +24,7 @@ let result;
 let chatHistory;
 let followUpRes;
 
-const useStore = async (req, res) => {
+const useStore2 = async (req, res) => {
   if (req.method === "POST") {
     loader = new TextLoader("./documents/restaurant.txt");
     docs = await loader.load();
@@ -107,4 +107,4 @@ const useStore = async (req, res) => {
     res.status(405).json({ say: "Only POST is allowed" });
   }
 };
-export default useStore;
+export default useStore2;

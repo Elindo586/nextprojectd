@@ -1,11 +1,6 @@
-// import { ChatOpenAI } from "langchain/chat_models/openai";
+import { ChatOpenAI } from "langchain/chat_models/openai";
 import { ConversationalRetrievalQAChain } from "langchain/chains";
 import { BufferMemory } from "langchain/memory";
-
-import { initializeAgentExecutorWithOptions } from "langchain/agents";
-import { ChatOpenAI } from "langchain/chat_models/openai";
-// import { SerpAPI } from "langchain/tools";
-import { Calculator } from "langchain/tools/calculator";
 
 import { TextLoader } from "langchain/document_loaders/fs/text";
 import { CharacterTextSplitter } from "langchain/text_splitter";
@@ -29,7 +24,7 @@ let result;
 let chatHistory;
 let followUpRes;
 
-const useStore3 = async (req, res) => {
+const useStore4 = async (req, res) => {
   if (req.method === "POST") {
     loader = new TextLoader("./documents/restaurant.txt");
     docs = await loader.load();
@@ -71,49 +66,45 @@ const useStore3 = async (req, res) => {
     \`\`\`
     Your answer:`;
 
-    const tools = [new Calculator()];
-
-    // chain = ConversationalRetrievalQAChain.fromLLM(
-    //   model1,
-    //   vectorstore.asRetriever(),
-    //   {
-    //     memory: new BufferMemory({
-    //       memoryKey: "chat_history", // Must be set to "chat_history"
-    //       inputKey: "question", // The key for the input to the chain
-    //       outputKey: "text", // The key for the final conversational output of the chain
-    //       returnMessages: true,
-    //       questionGeneratorChainOptions: {
-    //         template: CUSTOM_QUESTION_GENERATOR_CHAIN_PROMPT,
-    //       },
-    //     }),
-    //   }
-    // );
-
+    chain = ConversationalRetrievalQAChain.fromLLM(
+      model1,
+      vectorstore.asRetriever(),
+      {
+        memory: new BufferMemory({
+          memoryKey: "chat_history", // Must be set to "chat_history"
+          inputKey: "question", // The key for the input to the chain
+          outputKey: "text", // The key for the final conversational output of the chain
+          returnMessages: true,
+          questionGeneratorChainOptions: {
+            template: CUSTOM_QUESTION_GENERATOR_CHAIN_PROMPT,
+          },
+        }),
+      }
+    );
     chatHistory = "";
 
-    const executor = await initializeAgentExecutorWithOptions(tools, model1, {
-      agentType: "chat-conversational-react-description",
-      memoryKey: "chat_history",
-      verbose: true,
-    });
-
-    result = await executor.run({
+    result = await chain.call({
       question: message,
       chat_history: chatHistory,
     });
-    chatHistory = `${message}\n${result.text}`;
+    chatHistory = [
+      { role: "system", content: "you are a helpful assistant." },
+      { role: "user", content: `${message}` },
+      { role: "assistant", content: `${result.text}` },
+    ];
 
-    // followUpRes = await chain.call({
-    //   question: message,
-    //   chat_history: chatHistory,
-    // });
+    followUpRes = await chain.call({
+      question: message,
+      chat_history: chatHistory,
+    });
+    const stringResult = JSON.stringify(result.text);
 
     console.log(result);
     console.log(followUpRes);
 
-    return res.status(200).json({ output: result });
+    return res.status(200).json(stringResult);
   } else {
     res.status(405).json({ say: "Only POST is allowed" });
   }
 };
-export default useStore3;
+export default useStore4;
