@@ -62,8 +62,6 @@ const useStore4 = async (req, res) => {
     console.log(result);
 
     return res.status(200).json(result);
-  } else {
-    res.status(405).json({ say: "Only POST is allowed" });
   }
 };
 export default useStore4;
