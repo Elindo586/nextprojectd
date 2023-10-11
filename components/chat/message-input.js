@@ -124,16 +124,6 @@ const MessageInput = () => {
     setText("");
   };
 
-  // const handleSubmit = (e) => {
-  //   if (text.length > 0) {
-  //     // e.preventDefault();
-  //     console.log("Sending");
-  //     let data = {
-  //       text,
-  //     };
-  //   }
-  // };
-
   const handleSendMessage = () => {
     if (text.length > 0) {
       // handleSubmit();
