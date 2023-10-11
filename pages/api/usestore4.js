@@ -22,46 +22,44 @@ let chain;
 let result;
 
 const useStore4 = async (req, res) => {
-  if (req.method === "POST") {
-    loader = new TextLoader("./documents/restaurant.txt");
-    docs = await loader.load();
-    splitter = new CharacterTextSplitter({
-      chunkSize: 200,
-      chunkOverlap: 50,
-    });
-    documents = await splitter.splitDocuments(docs);
-    embeddings1 = new OpenAIEmbeddings();
-    vectorstore = await FaissStore.fromDocuments(documents, embeddings1);
-    await vectorstore.save("./");
+  loader = new TextLoader("./documents/restaurant.txt");
+  docs = await loader.load();
+  splitter = new CharacterTextSplitter({
+    chunkSize: 200,
+    chunkOverlap: 50,
+  });
+  documents = await splitter.splitDocuments(docs);
+  embeddings1 = new OpenAIEmbeddings();
+  vectorstore = await FaissStore.fromDocuments(documents, embeddings1);
+  await vectorstore.save("./");
 
-    const message = req.body.newText;
-    const firstOne = req.body.firstMsg;
+  const message = req.body.newText;
+  const firstOne = req.body.firstMsg;
 
-    console.log(message);
-    if (firstOne) {
-      model = new OpenAI({
-        modelName: "gpt-4",
-        openAIApiKey: process.env.OPENAI_API_KEY,
-        temperature: 0,
-      });
-
-      embeddings = new OpenAIEmbeddings();
-      vectoreStore = await FaissStore.load("./", embeddings);
-
-      chain = new RetrievalQAChain({
-        combineDocumentsChain: loadQAStuffChain(model),
-        retriever: vectoreStore.asRetriever(),
-        returnSourceDocuments: true,
-      });
-    }
-
-    result = await chain.call({
-      query: message,
+  console.log(message);
+  if (firstOne) {
+    model = new OpenAI({
+      modelName: "gpt-4",
+      openAIApiKey: process.env.OPENAI_API_KEY,
+      temperature: 0,
     });
 
-    console.log(result);
+    embeddings = new OpenAIEmbeddings();
+    vectoreStore = await FaissStore.load("./", embeddings);
 
-    return res.status(200).json(result);
+    chain = new RetrievalQAChain({
+      combineDocumentsChain: loadQAStuffChain(model),
+      retriever: vectoreStore.asRetriever(),
+      returnSourceDocuments: true,
+    });
   }
+
+  result = await chain.call({
+    query: message,
+  });
+
+  console.log(result);
+
+  return res.status(200).json(result);
 };
 export default useStore4;
