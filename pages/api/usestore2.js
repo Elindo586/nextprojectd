@@ -102,9 +102,9 @@ const useStore2 = async (req, res) => {
     console.log(result);
     console.log(followUpRes);
 
-    return res.status(200).json(stringResult);
+    return res.status(200).json({ stringResult });
   } else {
-    res.status(405).json({ say: "Only POST is allowed" });
+    return res.status(405).json({ say: "Only POST is allowed" });
   }
 };
 export default useStore2;
