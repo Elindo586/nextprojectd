@@ -83,6 +83,7 @@ export default function MessageInput() {
     };
 
     console.log(data);
+
     const response = await fetch("/api/usestore4", {
       method: "POST",
       headers: {
@@ -96,10 +97,6 @@ export default function MessageInput() {
     setFirstMsg(false);
 
     let searchRes;
-
-    if (!response.ok) {
-      throw new Error(`HTTP Error! Status: ${response.status}`);
-    }
 
     try {
       searchRes = await response.json();

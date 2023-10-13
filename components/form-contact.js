@@ -12,7 +12,7 @@ export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const router = useRouter();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     if (firstName === "") {
       alert("Please enter your name.");
     } else if (email === "") {
@@ -31,7 +31,7 @@ export default function ContactForm() {
       };
       router.replace("/thank-you");
 
-      fetch("/api/contact", {
+      await fetch("/api/contact", {
         method: "POST",
         headers: {
           Accept: "application/json, text/plain, */*",
