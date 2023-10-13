@@ -84,7 +84,7 @@ export default function MessageInput() {
 
     console.log(data);
 
-    const response = await fetch("/api/usestore4", {
+    const response = await fetch("/api/usestore5", {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
@@ -100,12 +100,12 @@ export default function MessageInput() {
 
     try {
       searchRes = await response.json();
-      console.log(searchRes.output.text);
+      console.log(searchRes.output.choices);
     } catch (err) {
       console.log("Error parsing", err);
     }
 
-    const botText = searchRes.output.text;
+    const botText = searchRes.output;
 
     const botMessage = {
       aiMessage: true,
