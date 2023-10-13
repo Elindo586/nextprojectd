@@ -22,16 +22,16 @@ let chain;
 let result;
 
 const useStore4 = async (req, res) => {
-  // loader = new TextLoader("./documents/restaurant.txt");
-  // docs = await loader.load();
-  // splitter = new CharacterTextSplitter({
-  //   chunkSize: 200,
-  //   chunkOverlap: 50,
-  // });
-  // documents = await splitter.splitDocuments(docs);
-  // embeddings1 = new OpenAIEmbeddings();
-  // vectorstore = await FaissStore.fromDocuments(documents, embeddings1);
-  // await vectorstore.save("./");
+  loader = new TextLoader("./documents/restaurant.txt");
+  docs = await loader.load();
+  splitter = new CharacterTextSplitter({
+    chunkSize: 200,
+    chunkOverlap: 50,
+  });
+  documents = await splitter.splitDocuments(docs);
+  embeddings1 = new OpenAIEmbeddings();
+  vectorstore = await FaissStore.fromDocuments(documents, embeddings1);
+  await vectorstore.save("./");
 
   const message = req.body.newText;
   const firstOne = req.body.firstMsg;
