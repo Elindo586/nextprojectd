@@ -97,6 +97,10 @@ const MessageInput = () => {
 
     let searchRes;
 
+    if (!response.ok) {
+      throw new Error(`HTTP Error! Status: ${response.status}`);
+    }
+
     try {
       searchRes = await response.json();
       console.log(searchRes.output.text);
