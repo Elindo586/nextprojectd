@@ -19,7 +19,7 @@ import {
   deleteConversations,
 } from "./dashboard-slice";
 
-const MessageInput = () => {
+export default function MessageInput() {
   const [text, setText] = useState("");
   const [ui, setUi] = useState(false);
   const [firstMsg, setFirstMsg] = useState(true);
@@ -173,6 +173,4 @@ const MessageInput = () => {
       </Row>
     </Container>
   );
-};
-
-export default MessageInput;
+}
