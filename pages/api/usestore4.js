@@ -60,6 +60,6 @@ const useStore4 = async (req, res) => {
 
   console.log(result);
 
-  return res.status(200).json({ output: result });
+  res.status(200).json({ output: result });
 };
 export default useStore4;
