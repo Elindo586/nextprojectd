@@ -40,37 +40,38 @@ export default function Coding() {
 
       <Container>
         <Row className="row-1-index">
-          <Col md={6} className="first-text-about">
-            <strong> How did I become a programmer?</strong> <br /> <br />
-            Why not call myself a programmer after all? I had exposure to HTML
-            and CSS for a long time while being a website owner, but I did not
-            get a real interest in coding until mid 2021 when I wanted to create
-            this{" "}
-            <a href="https://www.tu.biz/interactive" target="blank">
-              interactive technical animation{" "}
-            </a>
-            . During those days I knew absolutely nothing about JavaScript, and
-            my old very popular Content Manage System (CMS) was not a tool to
-            create a very specific line of code to do what I was interested in
-            doing. <br /> <br />
-            If you know anything about coding, you would know that HTML and CSS
-            are only the scratches on the surface for coding, if you really want
-            to learn to code and understand software engineering, then you must
-            pick languages such as Python, Javascript, among other languages
-            depending on what you are working.
-          </Col>
-          <Col md={6}>
+          <Col md={12} className="first-text-about">
             <div className="wrap-about">
               <Image
                 src="/images/edgar-coding.png"
                 id="edgar2"
                 alt="edgar lindo"
                 title="coding websites"
-                width={960}
-                height={540}
+                width={640}
+                height={360}
               />{" "}
             </div>
+            <p className="coding-paragraph">
+              <strong> How did I become a programmer?</strong> <br /> <br />
+              Why not call myself a programmer after all? I had exposure to HTML
+              and CSS for a long time while being a website owner, but I did not
+              get a real interest in coding until mid 2021 when I wanted to
+              create this{" "}
+              <a href="https://www.tu.biz/interactive" target="blank">
+                interactive technical animation{" "}
+              </a>
+              . During those days I knew absolutely nothing about JavaScript,
+              and my old very popular Content Manage System (CMS) was not a tool
+              to create a very specific line of code to do what I was interested
+              in doing. <br /> <br />
+              If you know anything about coding, you would know that HTML and
+              CSS are only the scratches on the surface for coding, if you
+              really want to learn to code and understand software engineering,
+              then you must pick languages such as Python, Javascript, among
+              other languages depending on what you are working.
+            </p>
           </Col>
+          <Col md={6}></Col>
         </Row>
         <Row className="row-2-index align-items-end">
           <Col className="test">

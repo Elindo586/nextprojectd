@@ -39,37 +39,38 @@ export default function Work() {
       </div>
       <Container>
         <Row className="row-1-index">
-          <Col md={6}>
+          <Col md={12}>
             <div className="wrap-work">
               <Image
                 src="/images/edgar-suit.png"
                 id="edgar2"
                 alt="edgar lindo"
                 title="Dark gray suit"
-                width={960}
-                height={540}
+                width={640}
+                height={360}
               />{" "}
             </div>
+            <p className="work-paragraph">
+              I work as an independent industrial sales engineer. Much of my
+              work is together with a range small to mid size industrial
+              manufacturers for hydraulic, pneumatic, electrical, and mechanical
+              products used in different industrial machinery applications.
+              Usually large companies say they have full coverage of different
+              markets, which offers me an opportunity to introduce new products
+              to take market share with my partners. <br /> <br />
+              With a solid background in Fluid Power I have a good base of what
+              is really required in the industrial manufacturing world. Many
+              products fall outside of the range of Fluid Power, but still
+              directly or indirectly related to the very same industrial
+              application seen in hydraulics. <br /> <br />
+              Products like servo motors, drives, linear bearings, lubrication
+              systems, sensors, gear boxes, and too many other to mention are
+              often handle by companies and engineers who are coming from the
+              old Fluid Power world. This is the reason why Fluid Power is now
+              often called / or evolving to &quot;Mechatronics&quot;.
+            </p>
           </Col>
-          <Col md={6} className="first-text-about">
-            I work as an independent industrial sales engineer. Much of my work
-            is together with a range small to mid size industrial manufacturers
-            for hydraulic, pneumatic, electrical, and mechanical products used
-            in different industrial machinery applications. Usually large
-            companies say they have full coverage of different markets, which
-            offers me an opportunity to introduce new products to take market
-            share with my partners. <br /> <br />
-            With a solid background in Fluid Power I have a good base of what is
-            really required in the industrial manufacturing world. Many products
-            fall outside of the range of Fluid Power, but still directly or
-            indirectly related to the very same industrial application seen in
-            hydraulics. <br /> <br />
-            Products like servo motors, drives, linear bearings, lubrication
-            systems, sensors, gear boxes, and too many other to mention are
-            often handle by companies and engineers who are coming from the old
-            Fluid Power world. This is the reason why Fluid Power is now often
-            called / or evolving to &quot;Mechatronics&quot;.
-          </Col>
+          <Col md={6} className="first-text-about"></Col>
         </Row>
         <Row className="row-2-index align-items-end">
           <Col className="test">

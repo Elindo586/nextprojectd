@@ -40,34 +40,36 @@ export default function About({ db }) {
 
       <Container>
         <Row className="row-1-index">
-          <Col md={6} className="first-text-about">
-            I was born in Nicaragua many moons ago, and came to the United
-            States in the middle of the winter in January 1993. It was more than
-            interesting to go from tropical weather to a very cold St. James,
-            Minnesota, in which place for first time ever I saw snow, got my
-            first one week long cold, and first time (and maybe last time) I saw
-            somebody wearing wooden snowshoes walking right outside my window,
-            and people driving cars on top of a frozen lake. I have tons of
-            good, and some not so good memories of good old St. James. <br />{" "}
-            <br />
-            Back in those days St. James was a town of bout 3,000 people so I
-            was told. This was the place where I started to learn and speak
-            English in the everyday basis. Classes were not that hard, but I had
-            translate everything to get the right answers. One and a half years
-            later I graduated from high school and by then I spoke decent
-            English.
-          </Col>
-          <Col md={6}>
-            <div className="wrap-about">
-              <Image
-                src="/images/me2.png"
-                id="edgar2"
-                alt="edgar lindo"
-                title="Washington D.C. trip"
-                width={960}
-                height={540}
-              />{" "}
-            </div>
+          <Col md={12}>
+            <Col md={12} className="first-text-about">
+              <div className="wrap-about">
+                <Image
+                  src="/images/me2.png"
+                  id="edgar2"
+                  alt="edgar lindo"
+                  title="Washington D.C. trip"
+                  width={640}
+                  height={360}
+                />{" "}
+              </div>
+              <p className="about-paragraph">
+                I was born in Nicaragua many moons ago, and came to the United
+                States in the middle of the winter in January 1993. It was more
+                than interesting to go from tropical weather to a very cold St.
+                James, Minnesota, in which place for first time ever I saw snow,
+                got my first one week long cold, and first time (and maybe last
+                time) I saw somebody wearing wooden snowshoes walking right
+                outside my window, and people driving cars on top of a frozen
+                lake. I have tons of good, and some not so good memories of good
+                old St. James. <br /> <br />
+                Back in those days St. James was a town of bout 3,000 people so
+                I was told. This was the place where I started to learn and
+                speak English in the everyday basis. Classes were not that hard,
+                but I had translate everything to get the right answers. One and
+                a half years later I graduated from high school and by then I
+                spoke decent English.
+              </p>
+            </Col>
           </Col>
         </Row>
         <Row className="row-2-index align-items-end">
