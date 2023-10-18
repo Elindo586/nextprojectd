@@ -6,9 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "upsert": " ./pages/api/upsert.js"
   },
   "dependencies": {
+    "@pinecone-database/pinecone": "^1.1.1",
     "@reduxjs/toolkit": "^1.9.5",
     "bootstrap": "^5.2.1",
     "cron": "^2.3.1",

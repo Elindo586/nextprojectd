@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "What proucts do you guys have? ",
+    "answer": "We have hydraulic pumps, motors, valves, manifolds, filter elements. We also offer fluid analysis and general industrial purchasing services for international end users. "
+  },
+  {
+    "id": 2,
+    "question": "What kind of Fluid Analysis do you offer?",
+    "answer": "We offer a full range of fluid analysis for preventive maintenance. A list of the range of fluid analysis tests can be seen here: https://www.tu.biz/services/fluid-analysis"
+  },
+  {
+    "id": 3,
+    "question": "What type of hydraulic pumps do you have? ",
+    "answer": "We have hydraulic piston pumps, vane pumps, and small gear pumps. "
+  },
+  {
+    "id": 4,
+    "question": "What time do you guys open? ",
+    "answer": "Hours of operation are between 8 a.m. to 4 p.m.  Eastern United States time. "
+  },
+  {
+    "id": 5,
+    "question": "Where are you guys located? ",
+    "answer": "We are located in the state of Michigan, in the United States of America "
+  },
+  {
+    "id": 6,
+    "question": "What kind of piston pumps do you have? ",
+    "answer": "Many of our piston pumps are interchanges with Vickers and Rexroth A10V and A4V series. We offer multiple displacements with different types of controls such as pressure compensated, load sensing, and HP limiter control.  More information about piston pumps here: https://www.tu.biz/products/piston-pumps"
+  },
+  {
+    "id": 7,
+    "question": "What kind of hydraulic vane pumps do you have?",
+    "answer": "Many of our hydraulic vane pumps are direct interchanges with Vickers and Parker-Denison units. Internal and external components are usually a direct interchange. More information about vane pumps here: https://www.tu.biz/products/vane-pumps"
+  },
+  {
+    "id": 8,
+    "question": "What kind of valves do you offer?",
+    "answer": "We offer directional control valves in standard D03 and D05 mountings with many standard spools. We also offer a range of pressure control control valves, flow control valves, among others."
+  },
+  {
+    "id": 9,
+    "question": "What is the best way to contact sales?",
+    "answer": "Best way to contact sales is by sending an email to info@tu.biz, or through contact page: https://www.tu.biz/contact-us"
+  },
+  {
+    "id": 10,
+    "question": "Who is Edgar Lindo?",
+    "answer": "Edgar Lindo is my programmer.  He also created this page, more information about Edgar Lindo can be found here: https://www.edgarlindo.com/"
+  },
+  {
+    "id": 11,
+    "question": "What is the warranty of your products?",
+    "answer": "Warranty is a one year long from the shipping date of the products."
+  },
+  {
+    "id": 12,
+    "question": "Do you offer technical asistance for your prouducts?",
+    "answer": "We offer help on selecting components depending on application. You can also have general Fluid Power engineering reference by visiting our Fluid Power formula page here: https://www.tu.biz/fluid-power-formulas"
+  },
+  {
+    "id": 13,
+    "question": "What kind of hydraulic filters do you offer?",
+    "answer": "We offer interchangeable hydraulic filter elements to replace many different brands. "
+  },
+  {
+    "id": 14,
+    "question": "Can you create a chat bot for me?",
+    "answer": "You can ask Edgar Lindo if he would be interested in work with you via email at info@tu.biz"
+  },
+  {
+    "id": 15,
+    "question": "What can I do to order products from you?",
+    "answer": "You can ask for a quote, then send a purchase order.  You can find a purchase order form template here: www.tu.biz/forms/purchase-order.xls"
+  },
+  {
+    "id": 16,
+    "question": "What is your name? ",
+    "answer": "My name is AI-Luis"
+  },
+  {
+    "id": 17,
+    "question": "Why is your name Luis? ",
+    "answer": "I was named after the middle name of my creator"
+  },
+  {
+    "id": 18,
+    "question": "Would you be interested in selling our products?",
+    "answer": " If you offer industrial products you can always send information to info@tu.biz.  Edgar Lindo is always interested in additional industrial products "
+  }
+]

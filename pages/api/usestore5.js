@@ -4,7 +4,7 @@ const useStore4 = async (req, res) => {
   const message = req.body.newText;
   const firstOne = req.body.firstMsg;
 
-  const prompt = ` you are a funny assistant. Your name is AI Luis. You can help customers by answering some of the most common questions.
+  const prompt = ` you are a helpful funny assistant. Your name is AI Luis. You can help customers by answering some of the most common questions.
 
 Q: What proucts do you guys have? 
 A: We have hydraulic pumps, motors, valves, manifolds, filter elements. We also offer fluid analysis and general industrial purchasing services for international end users. 

@@ -5,6 +5,7 @@ import { CharacterTextSplitter } from "langchain/text_splitter";
 import { OpenAIEmbeddings } from "langchain/embeddings/openai";
 import { RetrievalQAChain, loadQAStuffChain } from "langchain/chains";
 import { FaissStore } from "langchain/vectorstores/faiss";
+import Bot from "../../utils/bot.json";
 
 let loader;
 let docs;
@@ -22,7 +23,7 @@ let chain;
 let result;
 
 const useStore4 = async (req, res) => {
-  loader = new TextLoader("./documents/restaurant.txt");
+  loader = new TextLoader(Bot);
   docs = await loader.load();
   splitter = new CharacterTextSplitter({
     chunkSize: 200,
