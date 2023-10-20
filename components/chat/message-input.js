@@ -84,7 +84,7 @@ export default function MessageInput() {
 
     console.log(data);
 
-    const response = await fetch("/api/usestore5", {
+    const response = await fetch("/api/upsert", {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
