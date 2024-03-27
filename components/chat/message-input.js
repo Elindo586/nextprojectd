@@ -119,7 +119,7 @@ export default function MessageInput() {
         setFirstMsg(true);
       }
     });
-  }, [chatToEmailServer.chatToServer, firstMsg, emailChatHistory]);
+  }, [chatToEmailServer.chatToServer, firstMsg]);
 
   const proceedMessage = async () => {
     const message = {

@@ -1,9 +1,8 @@
 import { React, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { setSelectedConversationId } from "./dashboard-slice";
-import { GrUser } from "react-icons/gr";
+
 import { FaRobot } from "react-icons/fa6";
-import Image from "next/image";
+
 import Message from "./message";
 
 import Container from "react-bootstrap/Container";
@@ -26,7 +25,7 @@ const MessageDisplay = () => {
     <Container>
       <Row className="chat-display-header">
         <Col className="col-10 ai-col">
-          <p> Que pasa?.</p>{" "}
+          <p>I am learning, but you can ask me about our products!</p>{" "}
         </Col>
         <Col className="col-2">
           <FaRobot />
