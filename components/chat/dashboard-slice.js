@@ -3,6 +3,12 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   sessionEstablished: false,
   conversations: [],
+  chatHistory: [
+    {
+      id: null,
+      messages: [],
+    },
+  ],
   selectedConversationId: null,
 };
 
@@ -42,6 +48,24 @@ const dashboardSlice = createSlice({
         });
       }
     },
+
+    addChatHistory: (state, action) => {
+      const { userHistory, botHistory, conversationId } = action.payload;
+      const conversation = state.chatHistory.find(
+        (c) => c.id === conversationId
+      );
+
+      if (conversation) {
+        conversation.messages.push(userHistory);
+        conversation.messages.push(botHistory);
+      } else {
+        state.chatHistory.push({
+          id: conversationId,
+          messages: [userHistory, botHistory],
+        });
+      }
+    },
+
     setConversations: (state, action) => {
       state.conversations = action.payload;
       state.sessionEstablished = true;
@@ -71,6 +95,7 @@ export const {
   setSelectedConversationId,
   addMessage,
   addBotMessage,
+  addChatHistory,
   setConversations,
   setConversationHistory,
   deleteConversations,
