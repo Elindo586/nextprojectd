@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback, useMemo } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
 import Container from "react-bootstrap/Container";
@@ -52,7 +52,7 @@ export default function MessageInput() {
 
   useEffect(() => {
     sessionStorage.setItem("sessionId", conversationId);
-  }, []);
+  }, [conversationId]);
 
   let chatToServer;
 
@@ -63,14 +63,14 @@ export default function MessageInput() {
     chatToServer = [];
   }
 
-  let chatToEmailServer = {
-    chatToServer,
-  };
+  let chatToEmailServer = useMemo(() => {
+    return chatToServer;
+  }, [chatToServer]);
 
-  // console.log(typeof chatToServer);
-  // console.log(chatToServer);
+  console.log(typeof chatToServer);
+  console.log(chatToServer);
 
-  const emailChatHistory = async () => {
+  const emailChatHistory = useCallback(async () => {
     await fetch("/api/chat-email", {
       method: "POST",
       headers: {
@@ -85,10 +85,11 @@ export default function MessageInput() {
         console.log("response succeeded");
       }
     });
-  };
+  }, [chatToEmailServer]);
+
   useEffect(() => {
     if (ui) {
-      if (chatToEmailServer.chatToServer.length > 0) {
+      if (chatToEmailServer.length > 0) {
         emailChatHistory();
         setFirstMsg(true);
       }
@@ -99,7 +100,7 @@ export default function MessageInput() {
 
       setUi(false);
     }
-  }, [ui, dispatch, chatToEmailServer.chatToServer, firstMsg]);
+  }, [ui, dispatch, chatToEmailServer, firstMsg, emailChatHistory]);
 
   // useEffect(() => {
   //   document.addEventListener("visibilitychange", () => {
@@ -119,7 +120,7 @@ export default function MessageInput() {
         setFirstMsg(true);
       }
     });
-  }, [chatToEmailServer.chatToServer, firstMsg]);
+  }, [chatToEmailServer, firstMsg, emailChatHistory]);
 
   const proceedMessage = async () => {
     const message = {

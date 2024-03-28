@@ -13,8 +13,8 @@ const Data = async (req, res) => {
   const firstOne = req.body.firstMsg;
   const chatHistory = req.body.chatToServer;
 
-  console.log(message);
-  console.log(chatHistory);
+  // console.log(message);
+  // console.log(chatHistory);
 
   if (firstOne) {
     pinecone = new Pinecone({
