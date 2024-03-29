@@ -25,7 +25,7 @@ const MessageDisplay = () => {
     <Container>
       <Row className="chat-display-header">
         <Col className="col-10 ai-col">
-          <p>I am learning, but you can ask me about our products!</p>{" "}
+          <p> Talk to me.</p>{" "}
         </Col>
         <Col className="col-2">
           <FaRobot />

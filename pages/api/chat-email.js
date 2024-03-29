@@ -21,9 +21,7 @@ export default async function stuff(req, res) {
     });
   });
 
-  const textArray = Array.isArray(req.body.chatToServer)
-    ? req.body.chatToServer
-    : [];
+  const textArray = req.body.chatToServer;
   const contents = textArray
     .map(({ role, content }) => `role: ${role}${content}\n `)
     .join("\n");
@@ -33,7 +31,7 @@ export default async function stuff(req, res) {
   const mailData = {
     from: "info@tu.biz",
     to: "info@tu.biz",
-    subject: "Chat History",
+    subject: "Chat History tb",
     text: contents,
     html: `<div><pre>${contents}</pre></div>`,
   };
