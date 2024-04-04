@@ -1,0 +1,96 @@
+[
+  {
+    "id": 73622,
+    "Contact": "LUIS ROSADO",
+    "Email": "elindo586@gmail.com",
+    "quote": [
+      {
+        "Status": "quoted",
+        "QuoteN": "Q1074517",
+        "Part": "WF880050",
+        "PartDesc": "WF2GG1U28R",
+        "Qty": 20,
+        "Price": "$452.00",
+        "ExtPrice": "$9,040.00",
+        "LeadTime": "5-7 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 86714,
+    "Contact": "LORENA RONQUILLO",
+    "Email": "elindo586@gmail.com",
+    "quote": [
+      {
+        "Status": "quoted",
+        "QuoteN": "Q1069270",
+        "Part": "WF850789",
+        "PartDesc": "A10VS045DRG52RPUC64N00",
+        "Qty": 1,
+        "Price": "$824.00",
+        "ExtPrice": "$824.00",
+        "LeadTime": "STOCK BY 10AM Eastern"
+      },
+      {
+        "Status": "quoted",
+        "QuoteN": "Q1069270",
+        "Part": "D0627200702RM",
+        "PartDesc": "PV151R1EL00",
+        "Qty": 1,
+        "Price": "$-",
+        "ExtPrice": "$-",
+        "LeadTime": ""
+      },
+      {
+        "Status": "quoted",
+        "QuoteN": "Q1069270",
+        "Part": "V014-27083-0",
+        "PartDesc": "M4C 0551N00A102",
+        "Qty": 1,
+        "Price": "$990.00",
+        "ExtPrice": "$990.00",
+        "LeadTime": "STOCK BY 10AM Eastern"
+      },
+      {
+        "Status": "quoted",
+        "QuoteN": "Q1069621",
+        "Part": "NIF",
+        "PartDesc": "NIF",
+        "Qty": 1,
+        "Price": "$-",
+        "ExtPrice": "$-",
+        "LeadTime": ""
+      },
+      {
+        "Status": "quoted",
+        "QuoteN": "Q1069621",
+        "Part": "WF810654",
+        "PartDesc": "4525VQ50A211AA20R",
+        "Qty": 1,
+        "Price": "$915.00",
+        "ExtPrice": "$915.00",
+        "LeadTime": "STOCK BY 1PM Eastern"
+      },
+      {
+        "Status": "quoted",
+        "QuoteN": "Q1077537",
+        "Part": "WF810554",
+        "PartDesc": "4525V42A211DA22R",
+        "Qty": 1,
+        "Price": "$869.00",
+        "ExtPrice": "$869.00",
+        "LeadTime": "STOCK BY 11AM Eastern"
+      },
+      {
+        "Status": "quoted",
+        "QuoteN": "Q1081330",
+        "Part": "F080072",
+        "PartDesc": "500475A5102AAAAA",
+        "Qty": 2,
+        "Price": "$322.00",
+        "ExtPrice": "$644.00",
+        "LeadTime": "2-3 DAYS"
+      }
+    ]
+  }
+]
