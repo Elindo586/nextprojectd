@@ -29,25 +29,6 @@ export default function ContactForm() {
 
       console.log(data);
 
-      if (arrayIndex === quotes.length) {
-        clearInterval(myIntervals);
-        arrayIndex = 0;
-        console.log("We are done!");
-      }
-      const d = new Date();
-      const month = d.getMonth();
-      const days = d.getDate();
-      const year = d.getFullYear();
-      const hour = d.getHours();
-      const minutes = d.getMinutes();
-      const seconds = d.getSeconds();
-      timesRun += 1;
-      console.log(
-        `we ran ${timesRun} times at ${month}/${days}/${year} at ${hour}:${minutes}:${seconds}s`
-      );
-
-      console.log(arrayIndex, quotes.length);
-
       await fetch("/api/quote-email", {
         method: "POST",
         headers: {
@@ -66,7 +47,27 @@ export default function ContactForm() {
         .catch((error) => {
           console.log("Error", error);
         });
-    }, 100 * 1000);
+
+      const d = new Date();
+      const month = d.getMonth();
+      const days = d.getDate();
+      const year = d.getFullYear();
+      const hour = d.getHours();
+      const minutes = d.getMinutes();
+      const seconds = d.getSeconds();
+      timesRun += 1;
+      console.log(
+        `we ran ${timesRun} times at ${month}/${days}/${year} at ${hour}:${minutes}:${seconds}s`
+      );
+      console.log(arrayIndex, quotes.length);
+
+      if (arrayIndex === quotes.length) {
+        console.log("We are done!");
+
+        clearInterval(myIntervals);
+        arrayIndex = 0;
+      }
+    }, 10 * 1000);
   };
 
   return (

@@ -56,5 +56,6 @@ export default async function stuff(req, res) {
         resolve(info);
       }
     });
+    return res.status(200).json({ message: "Email sent!" });
   });
 }
