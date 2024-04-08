@@ -71,7 +71,7 @@ export default function MessageInput() {
   // console.log(chatToServer);
 
   const emailChatHistory = async () => {
-    await fetch("/api/chat-email", {
+    const getEmail = await fetch("/api/chat-email", {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
@@ -79,13 +79,24 @@ export default function MessageInput() {
       },
       body: JSON.stringify(chatToEmailServer),
       keepalive: true,
-    }).then((res) => {
-      console.log("response received");
-      if (res.status === 200) {
-        console.log("response succeeded");
-      }
     });
+    // .then((res) => {
+    //   console.log("response received");
+    //   if (res.status === 200) {
+    //     console.log(res.status.json().message);
+    //   }
+    // });
+    let emailRes;
+
+    try {
+      emailRes = await getEmail.json();
+    } catch (err) {
+      console.log("Error parsing", err);
+    }
+    const emailresLog = emailRes.message;
+    console.log(emailresLog);
   };
+
   useEffect(() => {
     if (ui) {
       if (chatToEmailServer.chatToServer.length > 0) {
