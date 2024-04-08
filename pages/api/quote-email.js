@@ -21,7 +21,8 @@ export default async function stuff(req, res) {
     });
   });
 
-  const name = req.body.contact;
+  const nameFull = req.body.contact;
+  const nameFirst = req.body.upper;
   const email = req.body.email;
   const title = req.body.id;
   const quote = req.body.quote;
@@ -34,14 +35,14 @@ export default async function stuff(req, res) {
     )
     .join("\n");
 
-  const text = `hola ${name},\n\nTodo bien con su cotizacion? Necesita algo mas? \n \n${contents} \n \nSaludos, \n \nEdgar \n`;
+  const text = `Hola ${nameFirst},\n\nTodo bien con su cotizacion? Necesita algo mas? \n \n${contents} \n \nSaludos, \n \nEdgar \n`;
 
   console.log(text);
 
   const mailData = {
-    from: "info@tu.biz",
+    from: { name: "Edgar Lindo", address: process.env.EMAIL },
     to: email,
-    subject: `cotizaciones para ${name} | ${title}`,
+    subject: `cotizaciones para ${nameFull} | ${title}`,
     text: `${text}`,
     html: `<div><pre>${text}</pre></div>`,
   };

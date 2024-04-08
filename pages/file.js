@@ -20,33 +20,38 @@ export default function ContactForm() {
 
     var myIntervals = setInterval(async function () {
       const currentQuote = quotes[arrayIndex++];
+      const fName = currentQuote.Contact.split(" ")[0].toLowerCase();
+      const upper = fName.charAt(0).toUpperCase() + fName.slice(1);
+
       const data = {
         contact: currentQuote.Contact,
         email: currentQuote.Email,
         quote: currentQuote.quote,
         id: currentQuote.id,
+        upper: upper,
       };
 
       console.log(data);
 
-      await fetch("/api/quote-email", {
+      const response = await fetch("/api/quote-email", {
         method: "POST",
         headers: {
           Accept: "application/json, text/plain, */*",
           "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
-      })
-        .then((res) => {
-          console.log("Response received");
+      });
 
-          if (res.status === 200) {
-            console.log("Response succeeded!");
-          }
-        })
-        .catch((error) => {
-          console.log("Error", error);
-        });
+      let res2;
+
+      try {
+        res2 = await response.json();
+      } catch (err) {
+        console.log("Error parsing", err);
+      }
+
+      const resMessage = res2.message;
+      console.log(resMessage);
 
       const d = new Date();
       const month = d.getMonth();
