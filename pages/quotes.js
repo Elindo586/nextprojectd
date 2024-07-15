@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import quotes from "../thejsons/quotes.json";
 const dataMain = quotes.data;
 const status = "quoted";
-const filterData = dataMain.filter((element) => element.Status === status);
+// const filterData = dataMain.filter((element) => element.Status === status);
 
 export default function ContactForm() {
   const [firstName, setFirstName] = useState("");
