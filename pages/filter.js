@@ -1,5 +1,5 @@
 import React from "react";
-import quotes from "../thejsons/02-quotes7-2-24.json";
+import quotes from "../thejsons/address.json";
 
 export default function ContactForm() {
   const handleSubmit = async () => {
@@ -84,15 +84,6 @@ export default function ContactForm() {
         <button className="btn btn-primary form-button" onClick={handleSubmit}>
           click me
         </button>
-      </div>
-
-      <div>
-        <div> Hola ${NameF}</div>
-        <div> Le comento de productos en STOCK:</div>
-        <div>
-          {" "}
-          <u> Bombas de pistones y repuestos:</u>
-        </div>
       </div>
     </div>
   );

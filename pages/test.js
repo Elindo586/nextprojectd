@@ -33,6 +33,14 @@ export default function App() {
         <input type="text" />
         <button type="submit">btn</button>
       </form>
+
+      <div>
+        <div> Le comento de productos en STOCK:</div>
+        <div>
+          {" "}
+          <u> Bombas de pistones y repuestos:</u>
+        </div>
+      </div>
     </div>
   );
 }

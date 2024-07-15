@@ -5,15 +5,24 @@
 }
 
 /* Index */
+
+#edgar {
+  position: absolute;
+  object-fit: contain;
+  object-position: center;
+}
 .main-index {
   background-color: whitesmoke;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 .wrap-index {
-  float: left;
-  margin-top: 1.5em;
-  margin-right: 0.6em;
-  margin-bottom: 0.01em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5em;
+  aspect-ratio: 1;
 }
 
 .first-text-index {
@@ -79,12 +88,25 @@
 
 /* About */
 
+.main-about {
+  background-color: whitesmoke;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#edgar2 {
+  position: absolute;
+  object-fit: contain;
+  object-position: center;
+}
+
 .wrap-about {
-  float: right;
-  margin-top: 1.5em;
-  margin-right: 0.3em;
-  margin-left: 0.3em;
+  position: relative;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 0.5em;
+  aspect-ratio: 1.7777777778;
 }
 
 .about-paragraph {

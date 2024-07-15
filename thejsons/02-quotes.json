@@ -1,0 +1,906 @@
+[
+  {
+    "id": 346198,
+    "Contact": "RAMON GUILLERMO",
+    "Email": "europahidraulica@outlook.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010538,
+        "Part": "WF351099",
+        "PartDesc": "PVB45 VALVE PLATE S/A REAR LH",
+        "Qty": 1,
+        "Price": "$378.00",
+        "ExtPrice": "$378.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010600,
+        "Part": "WF800390",
+        "PartDesc": "PVE19RWQ1830130C10",
+        "Qty": 1,
+        "Price": "$799.00",
+        "ExtPrice": "$799.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010538,
+        "Part": "WF800390",
+        "PartDesc": "PVE19RWQ1830130C10",
+        "Qty": 1,
+        "Price": "$799.00",
+        "ExtPrice": "$799.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010538,
+        "Part": "WF800680",
+        "PartDesc": "PVB45LSF20C11",
+        "Qty": 1,
+        "Price": "$3,315.00",
+        "ExtPrice": "$3,315.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      }
+    ]
+  },
+  {
+    "id": 953474,
+    "Contact": "GABRIELA ESTRELLO SAENZ",
+    "Email": "compras@hidraulicosdrh.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010488,
+        "Part": "WF810428",
+        "PartDesc": "2520VQ21A1411CC20R",
+        "Qty": 1,
+        "Price": "$624.00",
+        "ExtPrice": "$624.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 826229,
+    "Contact": "CESAR OSWALDO JARQUIN",
+    "Email": "ojarquin@loshidraulicos.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10011135,
+        "Part": "WF21618-5",
+        "PartDesc": "104 SHAFT&BRG 1\" SAE 6B SPLINE",
+        "Qty": 2,
+        "Price": "$53.00",
+        "ExtPrice": "$106.00",
+        "LeadTime": "STOCK"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10011135,
+        "Part": "WFC61258",
+        "PartDesc": "104/Y-106 SEAL KIT BUNA WITH HIGH PSI SHAFT SEAL",
+        "Qty": 2,
+        "Price": "$53.00",
+        "ExtPrice": "$106.00",
+        "LeadTime": "STOCK"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010773,
+        "Part": "WF1041023",
+        "PartDesc": "WF104-1023",
+        "Qty": 1,
+        "Price": "$234.00",
+        "ExtPrice": "$234.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      }
+    ]
+  },
+  {
+    "id": 352018,
+    "Contact": "SINDI CHINCHILLA",
+    "Email": "importaciones@hyseals.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010722,
+        "Part": "WF1091103",
+        "PartDesc": "WF109-1103",
+        "Qty": 1,
+        "Price": "$476.00",
+        "ExtPrice": "$476.00",
+        "LeadTime": "(BLANK)"
+      }
+    ]
+  },
+  {
+    "id": 782549,
+    "Contact": "KATHERINE MORALES",
+    "Email": "hycosuministros@hyco.com.co",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010915,
+        "Part": "WF840043",
+        "PartDesc": "25M42A1A20",
+        "Qty": 1,
+        "Price": "$418.00",
+        "ExtPrice": "$418.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010915,
+        "Part": "WF840125",
+        "PartDesc": "35M80A1A20",
+        "Qty": 1,
+        "Price": "$698.00",
+        "ExtPrice": "$698.00",
+        "LeadTime": "5-7 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 873135,
+    "Contact": "EDGARDO CARRILLO QUEZADA",
+    "Email": "ecarrillo@hscsac.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "V497123",
+        "PartDesc": "20VQ SEAL KIT BUNA",
+        "Qty": 10,
+        "Price": "$12.00",
+        "ExtPrice": "$120.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "V923548",
+        "PartDesc": "V10 SEAL KIT BUNA",
+        "Qty": 20,
+        "Price": "$13.00",
+        "ExtPrice": "$260.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "V922733",
+        "PartDesc": "V20/F/P SEAL KIT 11/12 DESIGN BUNA",
+        "Qty": 20,
+        "Price": "$13.00",
+        "ExtPrice": "$260.00",
+        "LeadTime": "5 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "V920015",
+        "PartDesc": "35VQ SEAL KIT SSS BUNA",
+        "Qty": 5,
+        "Price": "$17.00",
+        "ExtPrice": "$85.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "V923157",
+        "PartDesc": "25M SEAL KIT VITON",
+        "Qty": 10,
+        "Price": "$24.00",
+        "ExtPrice": "$240.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "C6405",
+        "PartDesc": "119/120 SEAL KIT MOTOR 002,3,4",
+        "Qty": 10,
+        "Price": "$26.00",
+        "ExtPrice": "$260.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "V923163",
+        "PartDesc": "35M SEAL KIT BUNA",
+        "Qty": 10,
+        "Price": "$30.00",
+        "ExtPrice": "$300.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "V923106",
+        "PartDesc": "45M SEAL KIT BUNA",
+        "Qty": 25,
+        "Price": "$31.00",
+        "ExtPrice": "$775.00",
+        "LeadTime": "5 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "C61234",
+        "PartDesc": "109/110 SEAL KIT REAR BUNA 004/006",
+        "Qty": 20,
+        "Price": "$31.00",
+        "ExtPrice": "$620.00",
+        "LeadTime": "5 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "V920060",
+        "PartDesc": "4520VQ/H SEAL KIT BUNA SSS",
+        "Qty": 5,
+        "Price": "$31.00",
+        "ExtPrice": "$155.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "C61236",
+        "PartDesc": "109/110 SEAL KIT SHAFT BUNA 004",
+        "Qty": 20,
+        "Price": "$35.00",
+        "ExtPrice": "$700.00",
+        "LeadTime": "5 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "C61259-000",
+        "PartDesc": "106 SEAL KIT BUNA 006 BEARINGLESS ONLY",
+        "Qty": 5,
+        "Price": "$37.00",
+        "ExtPrice": "$185.00",
+        "LeadTime": "5 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "C61235",
+        "PartDesc": "111 SEAL KIT BUNA 004",
+        "Qty": 10,
+        "Price": "$40.00",
+        "ExtPrice": "$400.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "C61258",
+        "PartDesc": "104/105 SEAL KIT BUNA 006",
+        "Qty": 5,
+        "Price": "$41.00",
+        "ExtPrice": "$205.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "C61238",
+        "PartDesc": "112/113 SEAL KIT REAR BUNA 005/006",
+        "Qty": 10,
+        "Price": "$45.00",
+        "ExtPrice": "$450.00",
+        "LeadTime": "5 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "C6406",
+        "PartDesc": "119 SEAL KIT SHAFT 002/3/4",
+        "Qty": 10,
+        "Price": "$46.00",
+        "ExtPrice": "$460.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "C61237",
+        "PartDesc": "112/113 SEAL KIT SHAFT BUNA 005/006",
+        "Qty": 10,
+        "Price": "$48.00",
+        "ExtPrice": "$480.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "C61281",
+        "PartDesc": "109/110 SEAL KIT SHAFT BUNA 006",
+        "Qty": 10,
+        "Price": "$49.00",
+        "ExtPrice": "$490.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "V923096",
+        "PartDesc": "50M SEAL KIT BUNA",
+        "Qty": 5,
+        "Price": "$64.00",
+        "ExtPrice": "$320.00",
+        "LeadTime": "5 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010185,
+        "Part": "C61239",
+        "PartDesc": "112/114 SEAL KIT BEARINGLESS 6K BUNA",
+        "Qty": 10,
+        "Price": "$69.00",
+        "ExtPrice": "$690.00",
+        "LeadTime": "5 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 722287,
+    "Contact": "EDSON CARDENAS",
+    "Email": "asistente@hydropowermexico.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010549,
+        "Part": "V69588RM",
+        "PartDesc": "KEY",
+        "Qty": 1,
+        "Price": "$35.00",
+        "ExtPrice": "$35.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010549,
+        "Part": "V351833RM",
+        "PartDesc": "VANE MHT70/90",
+        "Qty": 18,
+        "Price": "$56.00",
+        "ExtPrice": "$1,008.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010549,
+        "Part": "V351834RM",
+        "PartDesc": "SHAFT MHT70/90",
+        "Qty": 1,
+        "Price": "$630.00",
+        "ExtPrice": "$630.00",
+        "LeadTime": "NO STOCK"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010549,
+        "Part": "V906111RM",
+        "PartDesc": "MHT90R112",
+        "Qty": 1,
+        "Price": "$3,437.00",
+        "ExtPrice": "$3,437.00",
+        "LeadTime": "2 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 652404,
+    "Contact": "NICOLAS CHEVALIER",
+    "Email": "Chevalier@hydrola.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010989,
+        "Part": "WF1121059",
+        "PartDesc": "WF112-1059",
+        "Qty": 1,
+        "Price": "$620.00",
+        "ExtPrice": "$620.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010368,
+        "Part": "WF810440",
+        "PartDesc": "4535V50A3086AA22R",
+        "Qty": 1,
+        "Price": "$981.00",
+        "ExtPrice": "$981.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      }
+    ]
+  },
+  {
+    "id": 167119,
+    "Contact": "ANTONIO NUNEZ AJALCRINA",
+    "Email": "tecnicos@import360peru.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10011140,
+        "Part": "VS24-10219-0",
+        "PartDesc": "T6ED SEAL KIT BUNA",
+        "Qty": 100,
+        "Price": "$38.00",
+        "ExtPrice": "$3,800.00",
+        "LeadTime": "(BLANK)"
+      }
+    ]
+  },
+  {
+    "id": 920165,
+    "Contact": "LALO GUTIERREZ M",
+    "Email": "lalogtz4691@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010359,
+        "Part": "WF860814",
+        "PartDesc": "WFDG4S4010BUB60",
+        "Qty": 1,
+        "Price": "$125.00",
+        "ExtPrice": "$125.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010972,
+        "Part": "WF85341-0",
+        "PartDesc": "A10V140 SHAFT K KEYED SAE THRU OEM STYLE",
+        "Qty": 1,
+        "Price": "$300.00",
+        "ExtPrice": "$300.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10011079,
+        "Part": "B9511230605",
+        "PartDesc": "VPV 16 SEAL KIT SAE/METRIC VITON",
+        "Qty": 1,
+        "Price": "$309.00",
+        "ExtPrice": "$309.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010775,
+        "Part": "VS24-77230-0",
+        "PartDesc": "T7BB(S) B14 CART KIT CCW FRONT",
+        "Qty": 1,
+        "Price": "$527.00",
+        "ExtPrice": "$527.00",
+        "LeadTime": "16 WEEKS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010775,
+        "Part": "VS24-50623-0",
+        "PartDesc": "T7BB(S) B10 CART KIT CCW REAR",
+        "Qty": 1,
+        "Price": "$527.00",
+        "ExtPrice": "$527.00",
+        "LeadTime": "16 WEEKS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010775,
+        "Part": "VS24-77588-0",
+        "PartDesc": "T7E(S) 062 CART KIT CCW",
+        "Qty": 1,
+        "Price": "$798.00",
+        "ExtPrice": "$798.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010775,
+        "Part": "V027-01126-0/00",
+        "PartDesc": "T7BBSB14B091L00A100",
+        "Qty": 1,
+        "Price": "$1,280.00",
+        "ExtPrice": "$1,280.00",
+        "LeadTime": "16 WEEKS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010775,
+        "Part": "V024-73504-0/012",
+        "PartDesc": "T6ERM0621L01C42A1",
+        "Qty": 1,
+        "Price": "$1,535.00",
+        "ExtPrice": "$1,535.00",
+        "LeadTime": "3 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010972,
+        "Part": "WF8501810-0",
+        "PartDesc": "A10VS0140DFR131RPKD62K02S1092-95CC",
+        "Qty": 1,
+        "Price": "$4,844.00",
+        "ExtPrice": "$4,844.00",
+        "LeadTime": "STOCK BY 11AM EST"
+      }
+    ]
+  },
+  {
+    "id": 467497,
+    "Contact": "ADOLFO VALLES",
+    "Email": "adolfo.valles@hidravsa.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010313,
+        "Part": "WF860607",
+        "PartDesc": "WFDG4S4016CB60",
+        "Qty": 1,
+        "Price": "$151.00",
+        "ExtPrice": "$151.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010223,
+        "Part": "WF860607",
+        "PartDesc": "WFDG4S4016CB60",
+        "Qty": 1,
+        "Price": "$151.00",
+        "ExtPrice": "$151.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010313,
+        "Part": "WF860716",
+        "PartDesc": "WFDG5S88CEVMFTWLB530",
+        "Qty": 1,
+        "Price": "$412.00",
+        "ExtPrice": "$412.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010223,
+        "Part": "WF860716",
+        "PartDesc": "WFDG5S88CEVMFTWLB530",
+        "Qty": 1,
+        "Price": "$412.00",
+        "ExtPrice": "$412.00",
+        "LeadTime": "(BLANK)"
+      }
+    ]
+  },
+  {
+    "id": 535326,
+    "Contact": "OCTAVIO LOPEZ",
+    "Email": "octavio.lopez@lfp-hydraulics.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010279,
+        "Part": "WF85264",
+        "PartDesc": "A10V100 BEARING KIT SADDLE 31",
+        "Qty": 1,
+        "Price": "$63.00",
+        "ExtPrice": "$63.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010279,
+        "Part": "WF85282",
+        "PartDesc": "A10V100 COUPLING S/A K02/K68",
+        "Qty": 1,
+        "Price": "$147.00",
+        "ExtPrice": "$147.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010279,
+        "Part": "WF85328",
+        "PartDesc": "A10V100 CRADLE ASSY RH",
+        "Qty": 1,
+        "Price": "$269.00",
+        "ExtPrice": "$269.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010279,
+        "Part": "VS24-10721-0",
+        "PartDesc": "T6C 010 CART KIT CW",
+        "Qty": 1,
+        "Price": "$310.00",
+        "ExtPrice": "$310.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010279,
+        "Part": "WF85324",
+        "PartDesc": "A10V100 ROTATING GROUP RH",
+        "Qty": 1,
+        "Price": "$695.00",
+        "ExtPrice": "$695.00",
+        "LeadTime": "STOCK 3 HOURS"
+      }
+    ]
+  },
+  {
+    "id": 295037,
+    "Contact": "WILLIAM PENA",
+    "Email": "william.lptt@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010154,
+        "Part": "WF860677",
+        "PartDesc": "WFCG06F50",
+        "Qty": 1,
+        "Price": "$154.00",
+        "ExtPrice": "$154.00",
+        "LeadTime": "9 WEEKS"
+      }
+    ]
+  },
+  {
+    "id": 113219,
+    "Contact": "ARMANDO ARAYA CHAVEZ",
+    "Email": "Armando.araya@mtsi.cl",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010585,
+        "Part": "VS24-10133-0",
+        "PartDesc": "T6C SEAL KIT BUNA",
+        "Qty": 4,
+        "Price": "$32.00",
+        "ExtPrice": "$128.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010585,
+        "Part": "VS24-10352-0",
+        "PartDesc": "T6CC SEAL KIT BUNA #1,3,5 SHAFT",
+        "Qty": 4,
+        "Price": "$35.00",
+        "ExtPrice": "$140.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010585,
+        "Part": "VS24-10219-0",
+        "PartDesc": "T6ED SEAL KIT BUNA",
+        "Qty": 4,
+        "Price": "$37.00",
+        "ExtPrice": "$148.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      }
+    ]
+  },
+  {
+    "id": 308888,
+    "Contact": "WILLIAM JAVIER CARRILLO",
+    "Email": "pmc@pcl.com.co",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010560,
+        "Part": "V274382",
+        "PartDesc": "RETAINER",
+        "Qty": 1,
+        "Price": "$4.00",
+        "ExtPrice": "$4.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010560,
+        "Part": "V919682",
+        "PartDesc": "PVB10-15/PVQ20-32 SEAL KIT BUNA",
+        "Qty": 4,
+        "Price": "$33.00",
+        "ExtPrice": "$132.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010560,
+        "Part": "WF938276",
+        "PartDesc": "PVB10/PVQ20 ROTATING GROUP",
+        "Qty": 1,
+        "Price": "$280.00",
+        "ExtPrice": "$280.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      }
+    ]
+  },
+  {
+    "id": 540600,
+    "Contact": "JAN CARLOS RIEFKOHL",
+    "Email": "janriefkohl@prhydraulic.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010557,
+        "Part": "V145950RM",
+        "PartDesc": "DG4V3S31CMUB560",
+        "Qty": 1,
+        "Price": "$295.01",
+        "ExtPrice": "$295.01",
+        "LeadTime": "7-10 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 821811,
+    "Contact": "SAMANTHA DIAZ",
+    "Email": "compras@insumosintl.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010576,
+        "Part": "WF860328",
+        "PartDesc": "WF4WE6E6X/EW110N9DAL",
+        "Qty": 1,
+        "Price": "$143.00",
+        "ExtPrice": "$143.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      }
+    ]
+  },
+  {
+    "id": 656468,
+    "Contact": "JOSE LUIS LOPEZ GARCIA",
+    "Email": "joseluisromexsa@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010163,
+        "Part": "WF1032945",
+        "PartDesc": "WF103-2945",
+        "Qty": 1,
+        "Price": "$165.00",
+        "ExtPrice": "$165.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 216944,
+    "Contact": "MARCOS REYES",
+    "Email": "marcos.reyes@mgindustrialsupply.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10011055,
+        "Part": "WF1031036",
+        "PartDesc": "WF103-1036",
+        "Qty": 2,
+        "Price": "$165.00",
+        "ExtPrice": "$330.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 990626,
+    "Contact": "ROSA LOPEZ",
+    "Email": "compras@procreto.com.gt",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010944,
+        "Part": "WF1011005",
+        "PartDesc": "WF101-1005",
+        "Qty": 2,
+        "Price": "$186.00",
+        "ExtPrice": "$372.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 150788,
+    "Contact": "ANTONIO BONILLA",
+    "Email": "rio.supplytj@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010246,
+        "Part": "FM500052",
+        "PartDesc": "FM50MAG14K375SBN",
+        "Qty": 30,
+        "Price": "$398.00",
+        "ExtPrice": "$11,940.00",
+        "LeadTime": "2 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010246,
+        "Part": "F080005",
+        "PartDesc": "500475A5120AAAAA",
+        "Qty": 1,
+        "Price": "$398.00",
+        "ExtPrice": "$398.00",
+        "LeadTime": "4-6 WEEKS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010246,
+        "Part": "FM500053",
+        "PartDesc": "FM50MAG14K475SBN",
+        "Qty": 30,
+        "Price": "$398.00",
+        "ExtPrice": "$11,940.00",
+        "LeadTime": "2 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 162738,
+    "Contact": "JOSE GONZALEZ SALAS",
+    "Email": "gosajoa@hotmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010865,
+        "Part": "WFC60540",
+        "PartDesc": "101 SEAL KIT COMPLETE BUNA",
+        "Qty": 1,
+        "Price": "$24.00",
+        "ExtPrice": "$24.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010865,
+        "Part": "C60540",
+        "PartDesc": "101 SEAL KIT COMPLETE BUNA -008/9",
+        "Qty": 1,
+        "Price": "$32.00",
+        "ExtPrice": "$32.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010865,
+        "Part": "WF1011028",
+        "PartDesc": "WF101-1028",
+        "Qty": 1,
+        "Price": "$147.00",
+        "ExtPrice": "$147.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10010772,
+        "Part": "WF820581",
+        "PartDesc": "V201P11S62C11R",
+        "Qty": 1,
+        "Price": "$162.00",
+        "ExtPrice": "$162.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      }
+    ]
+  }
+]

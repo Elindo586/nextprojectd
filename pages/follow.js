@@ -1,5 +1,5 @@
 import React from "react";
-import quotes from "../thejsons/02-quotes7-2-24.json";
+import quotes from "../thejsons/2223.json";
 
 export default function ContactForm() {
   const handleSubmit = async () => {
@@ -24,16 +24,16 @@ export default function ContactForm() {
       const upper = fName.charAt(0).toUpperCase() + fName.slice(1);
 
       const data = {
-        contact: currentQuote.Contact,
+        firstName: currentQuote.Contact,
+        company: currentQuote.Company,
         email: currentQuote.Email,
-        quote: currentQuote.quote,
         id: currentQuote.id,
         upper: upper,
       };
 
       console.log(data);
 
-      const response = await fetch("/api/quote-email", {
+      const response = await fetch("/api/api-follow", {
         method: "POST",
         headers: {
           Accept: "application/json, text/plain, */*",
@@ -84,15 +84,6 @@ export default function ContactForm() {
         <button className="btn btn-primary form-button" onClick={handleSubmit}>
           click me
         </button>
-      </div>
-
-      <div>
-        <div> Hola ${NameF}</div>
-        <div> Le comento de productos en STOCK:</div>
-        <div>
-          {" "}
-          <u> Bombas de pistones y repuestos:</u>
-        </div>
       </div>
     </div>
   );

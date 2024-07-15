@@ -1,5 +1,5 @@
 import React from "react";
-import quotes from "../thejsons/02-quotes7-2-24.json";
+import quotes from "../thejsons/spanish-only.json";
 
 export default function ContactForm() {
   const handleSubmit = async () => {
@@ -20,20 +20,20 @@ export default function ContactForm() {
 
     var myIntervals = setInterval(async function () {
       const currentQuote = quotes[arrayIndex++];
-      const fName = currentQuote.Contact.split(" ")[0].toLowerCase();
-      const upper = fName.charAt(0).toUpperCase() + fName.slice(1);
+      //   const fName = currentQuote.Contact.split(" ")[0].toLowerCase();
+      //   const upper = fName.charAt(0).toUpperCase() + fName.slice(1);
 
       const data = {
-        contact: currentQuote.Contact,
+        firstName: currentQuote.FirstName,
+        lastName: currentQuote.LastName,
+        company: currentQuote.Company,
         email: currentQuote.Email,
-        quote: currentQuote.quote,
         id: currentQuote.id,
-        upper: upper,
       };
 
       console.log(data);
 
-      const response = await fetch("/api/quote-email", {
+      const response = await fetch("/api/api-follow-las-vegas", {
         method: "POST",
         headers: {
           Accept: "application/json, text/plain, */*",
@@ -84,15 +84,6 @@ export default function ContactForm() {
         <button className="btn btn-primary form-button" onClick={handleSubmit}>
           click me
         </button>
-      </div>
-
-      <div>
-        <div> Hola ${NameF}</div>
-        <div> Le comento de productos en STOCK:</div>
-        <div>
-          {" "}
-          <u> Bombas de pistones y repuestos:</u>
-        </div>
       </div>
     </div>
   );
