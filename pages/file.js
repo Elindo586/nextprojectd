@@ -85,15 +85,6 @@ export default function ContactForm() {
           click me
         </button>
       </div>
-
-      <div>
-        <div> Hola ${NameF}</div>
-        <div> Le comento de productos en STOCK:</div>
-        <div>
-          {" "}
-          <u> Bombas de pistones y repuestos:</u>
-        </div>
-      </div>
     </div>
   );
 }
