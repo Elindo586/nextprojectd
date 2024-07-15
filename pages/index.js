@@ -18,7 +18,7 @@ export default function Home({ db }) {
       const theDiv1 = document.querySelector(".wrap-index");
 
       if (screenWidth <= 991) {
-        theDiv1.style.height = screenWidth * 0.25 + "px";
+        theDiv1.style.height = screenWidth * 0.3 + "px";
       } else if (screenWidth > 991 && screenWidth <= 1130) {
         theDiv1.style.height = `${divHeight}px`;
       } else if (screenWidth > 1130) {
