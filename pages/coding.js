@@ -1,8 +1,4 @@
-import Head from "next/head";
 import Image from "next/image";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 import { useEffect } from "react";
 
@@ -65,8 +61,8 @@ export default function Coding() {
           })}
       </div>
 
-      <Row className="row-1-index">
-        <Col md={12} className="first-text-about">
+      <div className=" row row-1-index">
+        <div className=" col-6 first-text-about">
           <div className="wrap-coding">
             <Image
               fill={true}
@@ -79,6 +75,8 @@ export default function Coding() {
               sizes="100vw"
             />{" "}
           </div>
+        </div>
+        <div className="col-lg-6">
           <p className="coding-paragraph">
             <strong> How did I become a programmer?</strong> <br /> <br />
             Why not call myself a programmer after all? I had exposure to HTML
@@ -98,11 +96,10 @@ export default function Coding() {
             pick languages such as Python, Javascript, among other languages
             depending on what you are working.
           </p>
-        </Col>
-        <Col md={6}></Col>
-      </Row>
-      <Row className="row-2-index align-items-end">
-        <Col className="test">
+        </div>
+      </div>
+      <div className=" row row-2-index align-items-end">
+        <div className=" col test">
           <h2 className="second-text-index">
             {" "}
             After my first animation project{" "}
@@ -128,10 +125,10 @@ export default function Coding() {
             the point that I needed / wanted to publish information in a
             website.
           </p>
-        </Col>
-      </Row>
-      <Row>
-        <Col className="row-1-index">
+        </div>
+      </div>
+      <div className="row">
+        <div className=" col row-1-index">
           <h2 className="second-text-index"> My tools and resources</h2>
           <p>
             I am going to credit{" "}
@@ -157,56 +154,53 @@ export default function Coding() {
             <li>NEXT.js</li>
             <li>GSAP</li>
           </ul>
-        </Col>
-      </Row>
-      <Row>
-        <Col className="row-2-index align-items-end">
-          <h2 className="second-text-index">
-            {" "}
-            My advise if you want to learn to code.
-          </h2>
-          <p>
-            If you are interested in learning to code without going for a
-            computer science degree, then I surely would recommend Angela Yu and
-            check out her class, and no, Angela does not know me and has no idea
-            who I am, but I still think her class is pretty good. <br /> <br />
-            There are many tools out there and they all get to be the buzz of
-            the moment and maybe you&#39;ll think you need to learn a certain
-            tool, but keep in mind that if you have control of good old HTML,
-            CSS, and JavaScript, then all the awesome tools are just secondary.
-            Something like Bootstrap is easy to learn, and sure will make you
-            code faster, overall I give Bootstrap a thumbs up because it is easy
-            and gets you moving fast, but still think of Bootstrap just like a
-            secondary tool. <br /> <br />
-            Things like REACT and NEXT.js are a bit more advance, and I would
-            learn them later when you get more comfortable with your coding. I
-            will tell you right now NOT to use REACT alone as I learned the hard
-            way that REACT alone is no good for SEO because search engines can
-            not read JavaScript, and you will need to learn Server Side
-            Rendering to use in REACT, this is why I am using NEXT.js instead.{" "}
-            <br /> <br />
-            Learning to code takes time and it can be frustrating. Keeping it
-            simple and advancing at your own pace is the way to go. Once you
-            start coding you also need to practice to keep and obtain more
-            skills, or else you will forget, some places to keep sharpening your
-            skills are places like{" "}
-            <a href="https://www.sololearn.com/home" target="blank">
-              SoloLearn
-            </a>{" "}
-            ,&nbsp;
-            <a href="https://www.codewars.com" target="blank">
-              CodeWars
-            </a>{" "}
-            &nbsp;and{" "}
-            <a href="https://www.freecodecamp.org/" target="blank">
-              Free Code Camp
-            </a>
-            .
-            <br />
-            <br />
-          </p>
-        </Col>
-      </Row>
+        </div>
+      </div>
+      <div className="row row-2-index align-items-end">
+        <h2 className="second-text-index">
+          {" "}
+          My advise if you want to learn to code.
+        </h2>
+        <p>
+          If you are interested in learning to code without going for a computer
+          science degree, then I surely would recommend Angela Yu and check out
+          her class, and no, Angela does not know me and has no idea who I am,
+          but I still think her class is pretty good. <br /> <br />
+          There are many tools out there and they all get to be the buzz of the
+          moment and maybe you&#39;ll think you need to learn a certain tool,
+          but keep in mind that if you have control of good old HTML, CSS, and
+          JavaScript, then all the awesome tools are just secondary. Something
+          like Bootstrap is easy to learn, and sure will make you code faster,
+          overall I give Bootstrap a thumbs up because it is easy and gets you
+          moving fast, but still think of Bootstrap just like a secondary tool.{" "}
+          <br /> <br />
+          Things like REACT and NEXT.js are a bit more advance, and I would
+          learn them later when you get more comfortable with your coding. I
+          will tell you right now NOT to use REACT alone as I learned the hard
+          way that REACT alone is no good for SEO because search engines can not
+          read JavaScript, and you will need to learn Server Side Rendering to
+          use in REACT, this is why I am using NEXT.js instead. <br /> <br />
+          Learning to code takes time and it can be frustrating. Keeping it
+          simple and advancing at your own pace is the way to go. Once you start
+          coding you also need to practice to keep and obtain more skills, or
+          else you will forget, some places to keep sharpening your skills are
+          places like{" "}
+          <a href="https://www.sololearn.com/home" target="blank">
+            SoloLearn
+          </a>{" "}
+          ,&nbsp;
+          <a href="https://www.codewars.com" target="blank">
+            CodeWars
+          </a>{" "}
+          &nbsp;and{" "}
+          <a href="https://www.freecodecamp.org/" target="blank">
+            Free Code Camp
+          </a>
+          .
+          <br />
+          <br />
+        </p>
+      </div>
     </div>
   );
 }
