@@ -115,6 +115,21 @@
 }
 
 /* Coding */
+
+.wrap-coding {
+  position: relative;
+  margin-top: 1em;
+
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+  aspect-ratio: 1.7777777778;
+}
+.edgar-coding {
+  position: absolute;
+  object-fit: contain;
+  object-position: center;
+}
+
 .coding-paragraph {
   padding-top: 1.7em;
   padding-bottom: 0.5em;
@@ -122,11 +137,18 @@
 
 /* Work */
 .wrap-work {
-  float: left;
-  margin-top: 2em;
-  margin-right: 0.6em;
-  margin-left: 0.3em;
+  position: relative;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 0.5em;
+  aspect-ratio: 1.7777777778;
+}
+
+#edgar-work {
+  position: absolute;
+  object-fit: contain;
+  object-position: center;
 }
 .work-paragraph {
   padding-top: 1.7em;
