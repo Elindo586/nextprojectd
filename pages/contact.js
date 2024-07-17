@@ -17,7 +17,7 @@ export async function getStaticProps() {
   };
 }
 
-const Contact = () => {
+const Contact = ({ db }) => {
   return (
     <div className="main-form-div">
       <div>
@@ -41,14 +41,12 @@ const Contact = () => {
             );
           })}
       </div>
-      <Container>
-        <Row>
-          <Col>
-            <ContactForm />
-            <br />
-          </Col>
-        </Row>
-      </Container>
+      <div className="main-contact-div">
+        <div className="row">
+          <ContactForm />
+          <br />
+        </div>
+      </div>
     </div>
   );
 };

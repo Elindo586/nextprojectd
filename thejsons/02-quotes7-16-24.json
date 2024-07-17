@@ -1,0 +1,1428 @@
+[
+  {
+    "id": 2290357,
+    "Contact": "ALBERTO",
+    "Email": "aceresco@prw.net",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014673,
+        "ItemCode": "WF254848",
+        "ItemName": "2520V/Q SHAFT #11 SPLINED",
+        "Qty": 1,
+        "Price": "$55.00",
+        "ExtPrice": "$55.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014673,
+        "ItemCode": "WF913330",
+        "ItemName": "2520VQSV10 SHAFT #297 SPLINE",
+        "Qty": 1,
+        "Price": "$139.00",
+        "ExtPrice": "$139.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      }
+    ]
+  },
+  {
+    "id": 2458311,
+    "Contact": "AGUSTIN URIBE",
+    "Email": "AGUSTIN_UI@HOTMAIL.COM",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013595,
+        "ItemCode": "WF289084",
+        "ItemName": "4535V(Q) SHAFT #11 SPLINED",
+        "Qty": 4,
+        "Price": "$112.00",
+        "ExtPrice": "$448.00",
+        "LeadTime": "STOCK"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013595,
+        "ItemCode": "WF860259-I",
+        "ItemName": "WFCT06F50",
+        "Qty": 4,
+        "Price": "$154.00",
+        "ExtPrice": "$616.00",
+        "LeadTime": "3 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013595,
+        "ItemCode": "WF860262-I",
+        "ItemName": "WFCT10F30",
+        "Qty": 7,
+        "Price": "$209.00",
+        "ExtPrice": "$1,463.00",
+        "LeadTime": "3 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013595,
+        "ItemCode": "WF421243R",
+        "ItemName": "35VQ38 CART KIT REAR BUNA 20 DESIGN R",
+        "Qty": 13,
+        "Price": "$227.00",
+        "ExtPrice": "$2,951.00",
+        "LeadTime": "3 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013595,
+        "ItemCode": "WF416437R",
+        "ItemName": "45VQ60 CART KIT FRONT BUNA 20 DESIGN R",
+        "Qty": 18,
+        "Price": "$260.00",
+        "ExtPrice": "$4,680.00",
+        "LeadTime": "3 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013595,
+        "ItemCode": "WF810742",
+        "ItemName": "4535VQ60A3811CC20L",
+        "Qty": 4,
+        "Price": "$1,011.00",
+        "ExtPrice": "$4,044.00",
+        "LeadTime": "3 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013218,
+        "ItemCode": "WF810742",
+        "ItemName": "4535VQ60A3811CC20L",
+        "Qty": 1,
+        "Price": "$1,011.00",
+        "ExtPrice": "$1,011.00",
+        "LeadTime": "STOCK BY 11AM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013595,
+        "ItemCode": "WF923100",
+        "ItemName": "50M255 CART KIT",
+        "Qty": 1,
+        "Price": "$1,701.00",
+        "ExtPrice": "$1,701.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013595,
+        "ItemCode": "WF840022",
+        "ItemName": "50M255A1C20",
+        "Qty": 1,
+        "Price": "$1,718.00",
+        "ExtPrice": "$1,718.00",
+        "LeadTime": "3 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 5903873,
+    "Contact": "DIANA ANGULO",
+    "Email": "VENTAS@BAJAHIDRAULICOS.COM",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013996,
+        "ItemCode": "WF860257-I",
+        "ItemName": "WFCT06B50",
+        "Qty": 1,
+        "Price": "$154.00",
+        "ExtPrice": "$154.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014495,
+        "ItemCode": "WF1031069",
+        "ItemName": "WF103-1069",
+        "Qty": 1,
+        "Price": "$165.00",
+        "ExtPrice": "$165.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013156,
+        "ItemCode": "WF1121166",
+        "ItemName": "WF112-1166",
+        "Qty": 1,
+        "Price": "$597.00",
+        "ExtPrice": "$597.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      }
+    ]
+  },
+  {
+    "id": 4378118,
+    "Contact": "SILVIA RODAS",
+    "Email": "censerhsa01@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013547,
+        "ItemCode": "WF8202368",
+        "ItemName": "V201P13S10A11R",
+        "Qty": 1,
+        "Price": "$487.00",
+        "ExtPrice": "$487.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      }
+    ]
+  },
+  {
+    "id": 6482750,
+    "Contact": "OMAR SANABRIA",
+    "Email": "censerhsa@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013992,
+        "ItemCode": "WF8101517",
+        "ItemName": "2520VQ21A81BB20R",
+        "Qty": 1,
+        "Price": "$624.00",
+        "ExtPrice": "$624.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013987,
+        "ItemCode": "WF8101517",
+        "ItemName": "2520VQ21A81BB20R",
+        "Qty": 1,
+        "Price": "$624.00",
+        "ExtPrice": "$624.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      }
+    ]
+  },
+  {
+    "id": 4460297,
+    "Contact": "ANA DE LEON",
+    "Email": "ADELEON@CSIH.COM.MX",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013168,
+        "ItemCode": "V024-91558-0",
+        "ItemName": "T7EES0620621R00A1000",
+        "Qty": 1,
+        "Price": "$2,501.00",
+        "ExtPrice": "$2,501.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      }
+    ]
+  },
+  {
+    "id": 3540288,
+    "Contact": "ALFONSO FIERRO",
+    "Email": "afierro@grupohergosa.com.mx",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013090,
+        "ItemCode": "WF1031031",
+        "ItemName": "WF103-1031",
+        "Qty": 1,
+        "Price": "$171.00",
+        "ExtPrice": "$171.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      }
+    ]
+  },
+  {
+    "id": 7600484,
+    "Contact": "VANESSA LARRAZOLO",
+    "Email": "stecnico01b27@grupohergosa.com.mx",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013037,
+        "ItemCode": "WF1041343",
+        "ItemName": "WF104-1343",
+        "Qty": 1,
+        "Price": "$242.00",
+        "ExtPrice": "$242.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      }
+    ]
+  },
+  {
+    "id": 8993711,
+    "Contact": "ALEXIS CARRILLO",
+    "Email": "asestec02b26@grupohergosa.com.mx",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013827,
+        "ItemCode": "WF8501749",
+        "ItemName": "A10VS045DR52LVKC64N00SO97",
+        "Qty": 1,
+        "Price": "$855.00",
+        "ExtPrice": "$855.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      }
+    ]
+  },
+  {
+    "id": 4002773,
+    "Contact": "JOSE AGUIRRE G.",
+    "Email": "joseaguirreg20@outlook.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013686,
+        "ItemCode": "R1106587RM",
+        "ItemName": "PSVSNSF15ERM50 110/115",
+        "Qty": 1,
+        "Price": "$2,677.00",
+        "ExtPrice": "$2,677.00",
+        "LeadTime": "1-2 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 6023681,
+    "Contact": "RAMON GUILLERMO",
+    "Email": "europahidraulica@outlook.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013943,
+        "ItemCode": "V200104",
+        "ItemName": "O RING BUNA",
+        "Qty": 1,
+        "Price": "$3.00",
+        "ExtPrice": "$3.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013943,
+        "ItemCode": "V197588",
+        "ItemName": "BACK UP RING",
+        "Qty": 1,
+        "Price": "$4.00",
+        "ExtPrice": "$4.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013943,
+        "ItemCode": "V197587",
+        "ItemName": "BACK UP RING",
+        "Qty": 1,
+        "Price": "$4.00",
+        "ExtPrice": "$4.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013943,
+        "ItemCode": "V262350",
+        "ItemName": "O RING VITON",
+        "Qty": 1,
+        "Price": "$7.00",
+        "ExtPrice": "$7.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013943,
+        "ItemCode": "V262349",
+        "ItemName": "O RING VITON",
+        "Qty": 1,
+        "Price": "$7.00",
+        "ExtPrice": "$7.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013800,
+        "ItemCode": "V295262",
+        "ItemName": "PVB20/29 SHAFT SEAL BUNA",
+        "Qty": 20,
+        "Price": "$13.00",
+        "ExtPrice": "$260.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013943,
+        "ItemCode": "V913341",
+        "ItemName": "LOCKNUT - PVH \"S\" S/A",
+        "Qty": 1,
+        "Price": "$17.00",
+        "ExtPrice": "$17.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013943,
+        "ItemCode": "WF690210",
+        "ItemName": "PVH57 CONTROL ROD",
+        "Qty": 1,
+        "Price": "$70.00",
+        "ExtPrice": "$70.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013943,
+        "ItemCode": "WF860741",
+        "ItemName": "PVH57/74 ADJUSTING SCREW MAX STOP",
+        "Qty": 1,
+        "Price": "$84.00",
+        "ExtPrice": "$84.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013800,
+        "ItemCode": "WF422584",
+        "ItemName": "FB C 10 FOOT BRACKET KIT",
+        "Qty": 2,
+        "Price": "$115.00",
+        "ExtPrice": "$230.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014387,
+        "ItemCode": "WF860567",
+        "ItemName": "WFDG4S4016CUG60",
+        "Qty": 1,
+        "Price": "$151.00",
+        "ExtPrice": "$151.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013122,
+        "ItemCode": "VS24-25571-0",
+        "ItemName": "T6DCC SHAFT #1 KEYED ASSY NON SAE",
+        "Qty": 1,
+        "Price": "$176.00",
+        "ExtPrice": "$176.00",
+        "LeadTime": "STOCK"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013656,
+        "ItemCode": "WF1041226",
+        "ItemName": "WF104-1226",
+        "Qty": 1,
+        "Price": "$276.00",
+        "ExtPrice": "$276.00",
+        "LeadTime": "STOCK BY 11AM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013122,
+        "ItemCode": "V016-85200-0",
+        "ItemName": "VR4V0653310A1",
+        "Qty": 1,
+        "Price": "$374.00",
+        "ExtPrice": "$374.00",
+        "LeadTime": "STOCK BY 11AM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013207,
+        "ItemCode": "WF1131057",
+        "ItemName": "WF113-1057",
+        "Qty": 1,
+        "Price": "$634.00",
+        "ExtPrice": "$634.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013122,
+        "ItemCode": "V024-44944-0/37",
+        "ItemName": "T6DCCMB38B22B121R37B100",
+        "Qty": 1,
+        "Price": "$2,169.00",
+        "ExtPrice": "$2,169.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013841,
+        "ItemCode": "R978709407RM",
+        "ItemName": "PSVPNCF80GRM65",
+        "Qty": 1,
+        "Price": "$4,131.00",
+        "ExtPrice": "$4,131.00",
+        "LeadTime": "2-3 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013841,
+        "ItemCode": "XR978709408RM",
+        "ItemName": "PSVPSCF80GRM65",
+        "Qty": 1,
+        "Price": "$6,463.00",
+        "ExtPrice": "$6,463.00",
+        "LeadTime": "2-3 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 2167614,
+    "Contact": "OSCAR RAMIREZ",
+    "Email": "GLR.COMERCIAL@GMAIL.COM",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014522,
+        "ItemCode": "VS24-10170-0",
+        "ItemName": "T6DC SEAL KIT BUNA",
+        "Qty": 1,
+        "Price": "$37.00",
+        "ExtPrice": "$37.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013423,
+        "ItemCode": "VS24-26346-0",
+        "ItemName": "T6CR SHAFT #3 SPLINE ASSY SAE B",
+        "Qty": 1,
+        "Price": "$141.00",
+        "ExtPrice": "$141.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014522,
+        "ItemCode": "VS24-40198-0",
+        "ItemName": "T6*CM B28 CART KIT CCW REAR",
+        "Qty": 1,
+        "Price": "$350.00",
+        "ExtPrice": "$350.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      }
+    ]
+  },
+  {
+    "id": 1478189,
+    "Contact": "GUILLERMO SANDOVAL",
+    "Email": "hidraulica@att.net.mx",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013343,
+        "ItemCode": "R1755890RM",
+        "ItemName": "PSVPSCF40HRM50",
+        "Qty": 1,
+        "Price": "$3,074.00",
+        "ExtPrice": "$3,074.00",
+        "LeadTime": "2-3 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 8257252,
+    "Contact": "KATHERINE MORALES",
+    "Email": "hycosuministros@hyco.com.co",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013074,
+        "ItemCode": "V034-59773-0",
+        "ItemName": "T6C/R/CC 0** PORT PLATE PRESS P1 CCW/P2 CW",
+        "Qty": 1,
+        "Price": "$50.00",
+        "ExtPrice": "$50.00",
+        "LeadTime": "11 WEEKS"
+      }
+    ]
+  },
+  {
+    "id": 1346789,
+    "Contact": "CHRISTIAN GUTIERREZ MEDINA",
+    "Email": "christian.gutierrez@hydratronic.com.mx",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013379,
+        "ItemCode": "WF8601096",
+        "ItemName": "WF4WE6C6X/EG24N9Z45L",
+        "Qty": 2,
+        "Price": "$115.00",
+        "ExtPrice": "$230.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 4030683,
+    "Contact": "NICOLAS CHEVALIER",
+    "Email": "Chevalier@hydrola.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013832,
+        "ItemCode": "WF820951",
+        "ItemName": "V201P12S1A11R",
+        "Qty": 1,
+        "Price": "$168.00",
+        "ExtPrice": "$168.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014705,
+        "ItemCode": "WF810000",
+        "ItemName": "25V17A1C22R",
+        "Qty": 1,
+        "Price": "$393.00",
+        "ExtPrice": "$393.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014084,
+        "ItemCode": "WF8101011",
+        "ItemName": "30VQ24A1C20R",
+        "Qty": 1,
+        "Price": "$477.00",
+        "ExtPrice": "$477.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013851,
+        "ItemCode": "WF825412",
+        "ItemName": "V2020P1F8S11T11DC3B30L",
+        "Qty": 1,
+        "Price": "$487.00",
+        "ExtPrice": "$487.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013834,
+        "ItemCode": "V211748RM",
+        "ItemName": "V2230251BB20S214",
+        "Qty": 1,
+        "Price": "$1,324.00",
+        "ExtPrice": "$1,324.00",
+        "LeadTime": "NO STOCK"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014537,
+        "ItemCode": "WF800631",
+        "ItemName": "PVH98QICRF1S10C25V31",
+        "Qty": 1,
+        "Price": "$1,408.00",
+        "ExtPrice": "$1,408.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013853,
+        "ItemCode": "WF800680",
+        "ItemName": "PVB45LSF20C11",
+        "Qty": 1,
+        "Price": "$3,440.00",
+        "ExtPrice": "$3,440.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013853,
+        "ItemCode": "WF800115",
+        "ItemName": "PVB45RSF20C11",
+        "Qty": 1,
+        "Price": "$3,440.00",
+        "ExtPrice": "$3,440.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 1817876,
+    "Contact": "ANTONIO NUNEZ AJALCRINA",
+    "Email": "tecnicos@import360peru.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013965,
+        "ItemCode": "VS24-10219-0",
+        "ItemName": "T6ED SEAL KIT BUNA",
+        "Qty": 6,
+        "Price": "$38.00",
+        "ExtPrice": "$228.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013965,
+        "ItemCode": "VS24-10219-0",
+        "ItemName": "T6ED SEAL KIT BUNA",
+        "Qty": 44,
+        "Price": "$38.00",
+        "ExtPrice": "$1,672.00",
+        "LeadTime": "11 WEEKS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013730,
+        "ItemCode": "VS24-10916-0",
+        "ItemName": "M4D SEAL KIT BUNA",
+        "Qty": 1,
+        "Price": "$130.00",
+        "ExtPrice": "$130.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014053,
+        "ItemCode": "VS14-28180-0",
+        "ItemName": "T6ED SHAFT #3 SPLINE ASSY SAE C - ALSO T7ED",
+        "Qty": 7,
+        "Price": "$205.00",
+        "ExtPrice": "$1,435.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013688,
+        "ItemCode": "V027-00468-0",
+        "ItemName": "TXB1B061R00D101",
+        "Qty": 1,
+        "Price": "$323.00",
+        "ExtPrice": "$323.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013965,
+        "ItemCode": "WF1141034",
+        "ItemName": "WF114-1034",
+        "Qty": 1,
+        "Price": "$620.00",
+        "ExtPrice": "$620.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      }
+    ]
+  },
+  {
+    "id": 7787024,
+    "Contact": "LALO GUTIERREZ M",
+    "Email": "lalogtz4691@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013566,
+        "ItemCode": "V637-00004-0",
+        "ItemName": "M4C SHAFT SEAL BUNA",
+        "Qty": 10,
+        "Price": "$79.00",
+        "ExtPrice": "$790.00",
+        "LeadTime": "18 WEEKS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013403,
+        "ItemCode": "WF860457",
+        "ItemName": "WFDG4S4012AB60",
+        "Qty": 1,
+        "Price": "$125.00",
+        "ExtPrice": "$125.00",
+        "LeadTime": "(BLANK)"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013033,
+        "ItemCode": "B9511230605",
+        "ItemName": "VPV 16 SEAL KIT SAE/METRIC VITON",
+        "Qty": 1,
+        "Price": "$309.00",
+        "ExtPrice": "$309.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013548,
+        "ItemCode": "WF850671",
+        "ItemName": "A10VS028DRG31RPSA12N00",
+        "Qty": 1,
+        "Price": "$749.00",
+        "ExtPrice": "$749.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013548,
+        "ItemCode": "WF850565",
+        "ItemName": "A10VS028DRG31RPSC62N00",
+        "Qty": 1,
+        "Price": "$749.00",
+        "ExtPrice": "$749.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013938,
+        "ItemCode": "WF8501080",
+        "ItemName": "A10VS045DFR131RVPA12N00",
+        "Qty": 1,
+        "Price": "$824.00",
+        "ExtPrice": "$824.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013456,
+        "ItemCode": "V014-27083-0",
+        "ItemName": "M4C 0551N00A102",
+        "Qty": 1,
+        "Price": "$991.00",
+        "ExtPrice": "$991.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      }
+    ]
+  },
+  {
+    "id": 2924736,
+    "Contact": "ADOLFO VALLES",
+    "Email": "adolfo.valles@hidravsa.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014624,
+        "ItemCode": "WF860017",
+        "ItemName": "WF4WE6C6X/EW110N9Z45L",
+        "Qty": 1,
+        "Price": "$115.00",
+        "ExtPrice": "$115.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014624,
+        "ItemCode": "WF860000",
+        "ItemName": "WF4WE6E6X/EW110N9Z45L",
+        "Qty": 1,
+        "Price": "$143.00",
+        "ExtPrice": "$143.00",
+        "LeadTime": "(BLANK)"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014624,
+        "ItemCode": "WF860822",
+        "ItemName": "WFDG4S4012CB60",
+        "Qty": 1,
+        "Price": "$151.00",
+        "ExtPrice": "$151.00",
+        "LeadTime": "(BLANK)"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014624,
+        "ItemCode": "WF860607",
+        "ItemName": "WFDG4S4016CB60",
+        "Qty": 1,
+        "Price": "$151.00",
+        "ExtPrice": "$151.00",
+        "LeadTime": "(BLANK)"
+      }
+    ]
+  },
+  {
+    "id": 6312033,
+    "Contact": "ARIEL ANTONIO SANCHEZ",
+    "Email": "intercal.adm@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014089,
+        "ItemCode": "D230-82054-0",
+        "ItemName": "T6C(*)/T7(*)B BEARING SHAFT",
+        "Qty": 1,
+        "Price": "$19.00",
+        "ExtPrice": "$19.00",
+        "LeadTime": "(BLANK)"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014089,
+        "ItemCode": "VS14-97724-0",
+        "ItemName": "T6CCW/T7BB SEAL KIT BUNA #2,R,X,W,V,T,Q,S SHAFT",
+        "Qty": 1,
+        "Price": "$37.00",
+        "ExtPrice": "$37.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014089,
+        "ItemCode": "VS24-40171-0",
+        "ItemName": "T6CCM B25 CART KIT CCW FRONT",
+        "Qty": 1,
+        "Price": "$363.00",
+        "ExtPrice": "$363.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014089,
+        "ItemCode": "VS24-40221-0",
+        "ItemName": "T6CCM B25 CART KIT CCW REAR",
+        "Qty": 1,
+        "Price": "$363.00",
+        "ExtPrice": "$363.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 6674594,
+    "Contact": "LORENA RONQUILLO",
+    "Email": "salesinternationalservices@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014619,
+        "ItemCode": "WF810005",
+        "ItemName": "45V50A1C22R",
+        "Qty": 1,
+        "Price": "$611.00",
+        "ExtPrice": "$611.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      }
+    ]
+  },
+  {
+    "id": 6718454,
+    "Contact": "LUIS SINIBALDI",
+    "Email": "lsinibaldi@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014753,
+        "ItemCode": "VS24-30145-0",
+        "ItemName": "T6DM B31 CART KIT CW",
+        "Qty": 1,
+        "Price": "$565.00",
+        "ExtPrice": "$565.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014753,
+        "ItemCode": "V024-44179-0",
+        "ItemName": "T6DMB311R00C1",
+        "Qty": 1,
+        "Price": "$924.00",
+        "ExtPrice": "$924.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 9505187,
+    "Contact": "STUART SOLANO",
+    "Email": "stuart.solano@mc-trade.com.pe",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013043,
+        "ItemCode": "WF810036",
+        "ItemName": "45VQ60A11C20R",
+        "Qty": 1,
+        "Price": "$634.00",
+        "ExtPrice": "$634.00",
+        "LeadTime": "STOCK BY 11AM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013043,
+        "ItemCode": "WF810743",
+        "ItemName": "4535VQ60A3811CC20R",
+        "Qty": 1,
+        "Price": "$1,049.00",
+        "ExtPrice": "$1,049.00",
+        "LeadTime": "STOCK BY 11AM EST"
+      }
+    ]
+  },
+  {
+    "id": 8149819,
+    "Contact": "ARMANDO ARAYA CHAVEZ",
+    "Email": "Armando.araya@mtsi.cl",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013780,
+        "ItemCode": "VS24-40189-0",
+        "ItemName": "T6*CM B17 CART KIT CW REAR",
+        "Qty": 1,
+        "Price": "$310.00",
+        "ExtPrice": "$310.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013780,
+        "ItemCode": "V016-82917-0",
+        "ItemName": "VR5V0851312A1",
+        "Qty": 1,
+        "Price": "$384.00",
+        "ExtPrice": "$384.00",
+        "LeadTime": "STOCK BY 10AM EST"
+      }
+    ]
+  },
+  {
+    "id": 6649318,
+    "Contact": "OMAR TORRES",
+    "Email": "tmomar13@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013646,
+        "ItemCode": "V920072",
+        "ItemName": "4535VQ SEAL KIT SSS BUNA",
+        "Qty": 1,
+        "Price": "$27.00",
+        "ExtPrice": "$27.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013646,
+        "ItemCode": "WF421564L",
+        "ItemName": "35VQ25 CART KIT REAR VITON 20 DESIGN L",
+        "Qty": 1,
+        "Price": "$227.00",
+        "ExtPrice": "$227.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013646,
+        "ItemCode": "WF634897R",
+        "ItemName": "45VQH42 CART KIT FRONT BUNA 30 DESIGN R",
+        "Qty": 1,
+        "Price": "$877.00",
+        "ExtPrice": "$877.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013188,
+        "ItemCode": "WF1191035",
+        "ItemName": "WF119-1035",
+        "Qty": 1,
+        "Price": "$882.00",
+        "ExtPrice": "$882.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 8544253,
+    "Contact": "OSCAR EDUARDO GUZMAN NARVAEZ",
+    "Email": "asistentepmc@pcl.com.co",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013600,
+        "ItemCode": "WF231532",
+        "ItemName": "4525/3525V COVER REAR 'A' FLANGE",
+        "Qty": 1,
+        "Price": "$47.00",
+        "ExtPrice": "$47.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013600,
+        "ItemCode": "WF361762",
+        "ItemName": "4525V SHAFT #86 KEYED HD",
+        "Qty": 1,
+        "Price": "$112.00",
+        "ExtPrice": "$112.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013600,
+        "ItemCode": "WF942356",
+        "ItemName": "45V/Q FRONT BODY S/A",
+        "Qty": 1,
+        "Price": "$143.00",
+        "ExtPrice": "$143.00",
+        "LeadTime": "STOCK 3 HOURS"
+      }
+    ]
+  },
+  {
+    "id": 6321499,
+    "Contact": "JULIO VIERA-PEREZ",
+    "Email": "jviera@prhydraulic.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014491,
+        "ItemCode": "WF1031034",
+        "ItemName": "WF103-1034",
+        "Qty": 1,
+        "Price": "$156.00",
+        "ExtPrice": "$156.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 6054232,
+    "Contact": "JAN CARLOS RIEFKOHL",
+    "Email": "janriefkohl@prhydraulic.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013392,
+        "ItemCode": "WF02-466220",
+        "ItemName": "PVE012R05AUB0B21240001001AGCD0A",
+        "Qty": 1,
+        "Price": "$1,135.00",
+        "ExtPrice": "$1,135.00",
+        "LeadTime": "2-3 DAYS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013392,
+        "ItemCode": "V02-466220RM",
+        "ItemName": "PVE012R05AUB0B21240001001AGCD0A",
+        "Qty": 1,
+        "Price": "$1,204.00",
+        "ExtPrice": "$1,204.00",
+        "LeadTime": "2 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 4158818,
+    "Contact": "MAURICIO SANCHEZ",
+    "Email": "sanchezmauricio3900@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013442,
+        "ItemCode": "WF1041028",
+        "ItemName": "WF104-1028",
+        "Qty": 1,
+        "Price": "$262.00",
+        "ExtPrice": "$262.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 3600484,
+    "Contact": "GABRIEL JARAMILLO",
+    "Email": "gjaramillo@portandmining.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013719,
+        "ItemCode": "WF850973",
+        "ItemName": "A10VS045DFR52LPUC64N00",
+        "Qty": 1,
+        "Price": "$824.00",
+        "ExtPrice": "$824.00",
+        "LeadTime": "STOCK BY 11AM EST"
+      }
+    ]
+  },
+  {
+    "id": 6095579,
+    "Contact": "ANTONIO BONILLA",
+    "Email": "rio.supplytj@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014226,
+        "ItemCode": "WF880379",
+        "ItemName": "WF2DG7BU2216R",
+        "Qty": 1,
+        "Price": "$1,037.00",
+        "ExtPrice": "$1,037.00",
+        "LeadTime": "7-10 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 1925323,
+    "Contact": "JOSE LOPEZ",
+    "Email": "romexsa@hotmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014485,
+        "ItemCode": "V034-59209-0",
+        "ItemName": "T6C 025 CAM RING",
+        "Qty": 1,
+        "Price": "$184.00",
+        "ExtPrice": "$184.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014485,
+        "ItemCode": "V034-59245-0",
+        "ItemName": "T6C 028 CAM RING",
+        "Qty": 1,
+        "Price": "$184.00",
+        "ExtPrice": "$184.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014485,
+        "ItemCode": "V034-66843-0",
+        "ItemName": "T6C 031 CAM RING",
+        "Qty": 1,
+        "Price": "$200.00",
+        "ExtPrice": "$200.00",
+        "LeadTime": "STOCK 3 HOURS"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014485,
+        "ItemCode": "VS24-45793-0",
+        "ItemName": "T6CCM B31 CART KIT CW FRONT",
+        "Qty": 2,
+        "Price": "$359.00",
+        "ExtPrice": "$718.00",
+        "LeadTime": "STOCK 3 HOURS"
+      }
+    ]
+  },
+  {
+    "id": 5650191,
+    "Contact": "ING JOSE LUIS LOPEZ GARCIA",
+    "Email": "romexsa@megared.net.mx",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013338,
+        "ItemCode": "V027-00125-0",
+        "ItemName": "T6DCCR0610200082R00A100",
+        "Qty": 1,
+        "Price": "$2,950.00",
+        "ExtPrice": "$2,950.00",
+        "LeadTime": "5-7 DAYS"
+      }
+    ]
+  },
+  {
+    "id": 4436284,
+    "Contact": "MARCELO GARAY",
+    "Email": "marcelo.garay@serdinsa.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013215,
+        "ItemCode": "WF860258-I",
+        "ItemName": "WFCT06C50",
+        "Qty": 1,
+        "Price": "$154.00",
+        "ExtPrice": "$154.00",
+        "LeadTime": "STOCK BY 11AM EST"
+      }
+    ]
+  },
+  {
+    "id": 6740367,
+    "Contact": "ELBA LETICIA MENDEZ",
+    "Email": "asistente@servimecsa.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014183,
+        "ItemCode": "WF860176",
+        "ItemName": "WFDG17V36C60",
+        "Qty": 2,
+        "Price": "$153.00",
+        "ExtPrice": "$306.00",
+        "LeadTime": "1 DAY"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013967,
+        "ItemCode": "WF8102222",
+        "ItemName": "4525VQ60A141CC20R",
+        "Qty": 1,
+        "Price": "$924.00",
+        "ExtPrice": "$924.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 9646661,
+    "Contact": "MARLON ALEJANDRO RAMIREZ",
+    "Email": "ventas1@servimecsa.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014161,
+        "ItemCode": "WF860176",
+        "ItemName": "WFDG17V36C60",
+        "Qty": 1,
+        "Price": "$153.00",
+        "ExtPrice": "$153.00",
+        "LeadTime": "1 DAY"
+      }
+    ]
+  },
+  {
+    "id": 4165266,
+    "Contact": "HALSTON LOPEZ",
+    "Email": "Halston.lopez@gmail.com",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013745,
+        "ItemCode": "V284397",
+        "ItemName": "BEARING SHAFT FRONT",
+        "Qty": 1,
+        "Price": "$10.00",
+        "ExtPrice": "$10.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013745,
+        "ItemCode": "V12016",
+        "ItemName": "BEARING",
+        "Qty": 3,
+        "Price": "$15.00",
+        "ExtPrice": "$45.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013745,
+        "ItemCode": "V919682",
+        "ItemName": "PVB10-15/PVQ20-32 SEAL KIT BUNA",
+        "Qty": 1,
+        "Price": "$33.00",
+        "ExtPrice": "$33.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013745,
+        "ItemCode": "WF270369",
+        "ItemName": "PVB10/15 Y-PVQ20/32 #1 SHAFT KEYED NON THRU",
+        "Qty": 1,
+        "Price": "$57.00",
+        "ExtPrice": "$57.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013745,
+        "ItemCode": "V239077",
+        "ItemName": "PVB10/15 SWASH PLATE",
+        "Qty": 1,
+        "Price": "$60.00",
+        "ExtPrice": "$60.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013745,
+        "ItemCode": "WF342743",
+        "ItemName": "PVB10/15 YOKE",
+        "Qty": 1,
+        "Price": "$78.00",
+        "ExtPrice": "$78.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013886,
+        "ItemCode": "WF02-102574R",
+        "ItemName": "45V50 CART KIT FRONT BUNA 22 DESIGN R",
+        "Qty": 4,
+        "Price": "$260.00",
+        "ExtPrice": "$1,040.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013745,
+        "ItemCode": "WF938273",
+        "ItemName": "PVB15/PVQ32 ROTATING GROUP",
+        "Qty": 1,
+        "Price": "$290.00",
+        "ExtPrice": "$290.00",
+        "LeadTime": "STOCK BY 3PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013886,
+        "ItemCode": "WF810259",
+        "ItemName": "45V50A1A22R",
+        "Qty": 2,
+        "Price": "$611.00",
+        "ExtPrice": "$1,222.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013886,
+        "ItemCode": "WF810886",
+        "ItemName": "45V50A1B22R",
+        "Qty": 2,
+        "Price": "$611.00",
+        "ExtPrice": "$1,222.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      },
+      {
+        "Status": "Quoted",
+        "QuoteN": 10013717,
+        "ItemCode": "WF800164",
+        "ItemName": "PVB15RSY40CC11",
+        "Qty": 1,
+        "Price": "$660.00",
+        "ExtPrice": "$660.00",
+        "LeadTime": "STOCK BY 12PM EST"
+      }
+    ]
+  },
+  {
+    "id": 5103586,
+    "Contact": "ALFREDO GARCIA",
+    "Email": "worldtradeuniversal@unixel.com.mx",
+    "quote": [
+      {
+        "Status": "Quoted",
+        "QuoteN": 10014431,
+        "ItemCode": "WF1041028",
+        "ItemName": "WF104-1028",
+        "Qty": 1,
+        "Price": "$262.00",
+        "ExtPrice": "$262.00",
+        "LeadTime": "1 WEEK"
+      }
+    ]
+  }
+]

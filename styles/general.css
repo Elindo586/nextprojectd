@@ -13,8 +13,8 @@
 }
 .main-index {
   background-color: whitesmoke;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
 }
 
 .wrap-index {
@@ -49,6 +49,8 @@
 /* Footer */
 .main-footer {
   background-color: black;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 .footer-privacy {
   color: white;
@@ -90,8 +92,8 @@
 
 .main-about {
   background-color: whitesmoke;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
 }
 
 #edgar2 {
@@ -181,6 +183,20 @@
 /* Page - Contact */
 .main-form-div {
   background-color: whitesmoke;
+}
+.main-contact-div {
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+/* Nav Bar  */
+
+.main-navbar {
+  background-color: black;
+  text-align: center;
+  padding-left: 3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 /* CHAT UI */

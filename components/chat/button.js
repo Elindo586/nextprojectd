@@ -1,19 +1,15 @@
 import React from "react";
-import Image from "next/image";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 import { v4 as uuid } from "uuid";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import {
-  addMessage,
-  addBotMessage,
-  setSelectedConversationId,
-  addChatHistory,
-  setConversationHistory,
-  setConversations,
+  // addMessage,
+  // addBotMessage,
+  // addChatHistory,
+  // setConversationHistory,
+  // setConversations,
   deleteConversations,
+  setSelectedConversationId,
 } from "./dashboard-slice";
 const Button = () => {
   const dispatch = useDispatch();
@@ -29,16 +25,15 @@ const Button = () => {
   };
 
   return (
-    <Container id="chat-button-id" className="chat-button">
-      <Row>
+    <div id="chat-button-id" className=" container chat-button">
+      <div className="row">
         <div>
           <button onClick={handleChooseNewChat} className="inside-chat-button">
             Chat
           </button>
         </div>
-      </Row>
-      <Row></Row>
-    </Container>
+      </div>
+    </div>
   );
 };
 

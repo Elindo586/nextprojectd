@@ -1,11 +1,8 @@
 import { React, useEffect, useState } from "react";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 
 import MessageInput from "./message-input";
 import MessageDisplay from "./message-display";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 // const ChatLogo = () => {
 //   return (
@@ -16,19 +13,19 @@ import Col from "react-bootstrap/Col";
 // };
 
 const ChatContainer = () => {
-  const selectedConversationId = useSelector(
-    (state) => state.dashboard.selectedConversationId
-  );
+  // const selectedConversationId = useSelector(
+  //   (state) => state.dashboard.selectedConversationId
+  // );
 
   return (
-    <Container id="chat-container-id" className="chat-container">
-      <Row>
+    <div id="chat-container-id" className=" container chat-container">
+      <div className="row">
         <MessageDisplay />
-      </Row>
-      <Row>
+      </div>
+      <div className="row">
         <MessageInput />
-      </Row>
-    </Container>
+      </div>
+    </div>
   );
 };
 

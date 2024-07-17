@@ -3,8 +3,8 @@ export default async function stuff(req, res) {
   const transporter = nodemailer.createTransport({
     service: "Outlook365",
     auth: {
-      user: process.env.EMAIL,
-      pass: process.env.EPASSWORD,
+      user: process.env.EMAIL2,
+      pass: process.env.EPASSWORD2,
     },
   });
 
@@ -40,7 +40,7 @@ export default async function stuff(req, res) {
   console.log(text);
 
   const mailData = {
-    from: { name: "Edgar Lindo", address: process.env.EMAIL },
+    from: { name: "Edgar Lindo", address: process.env.EMAIL2 },
     to: email,
     subject: `cotizaciones para ${nameFull} | ${title}`,
     text: `${text}`,

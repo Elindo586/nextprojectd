@@ -4,7 +4,8 @@ import { store } from "./../components/chat/store";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/general.css";
 
-import MainNav from "../components/nav-main";
+import NavBar from "../components/nav-bar";
+
 import ChatContainer from "../components/chat/chat-container";
 import Button from "../components/chat/button";
 import Footer from "../components/footer";
@@ -51,7 +52,7 @@ function MyApp({ Component, pageProps }) {
           />
         </div>
         <nav>
-          <MainNav />
+          <NavBar />
         </nav>
         <div className="margins">
           <Component {...pageProps} />

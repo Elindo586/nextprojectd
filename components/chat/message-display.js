@@ -1,13 +1,7 @@
 import { React, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-
 import { FaRobot } from "react-icons/fa6";
-
 import Message from "./message";
-
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 const MessageDisplay = () => {
   // const dispatch = useDispatch();
@@ -22,16 +16,16 @@ const MessageDisplay = () => {
   );
 
   return (
-    <Container>
-      <Row className="chat-display-header">
-        <Col className="col-10 ai-col">
+    <div className="container">
+      <div className=" row chat-display-header">
+        <div className="col-10 ai-col">
           <p> Talk to me.</p>{" "}
-        </Col>
-        <Col className="col-2">
+        </div>
+        <div className=" col col-2">
           <FaRobot />
-        </Col>
-      </Row>
-      <Row className="chat-display">
+        </div>
+      </div>
+      <div className="row chat-display">
         {conversation?.messages.map((m, index) => (
           <Message
             key={m.id}
@@ -40,8 +34,8 @@ const MessageDisplay = () => {
             animate={index === conversation.messages.length - 1 && m.aiMessage}
           />
         ))}
-      </Row>
-    </Container>
+      </div>
+    </div>
   );
 };
 

@@ -2,10 +2,6 @@ import React, { useRef, useEffect, useState } from "react";
 import { GrUser } from "react-icons/gr";
 import { FaRobot } from "react-icons/fa6";
 
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
 const SlowText = (props) => {
   const { speed, textOut } = props;
   const [placeholder, setPlaceholder] = useState(textOut[0]);
@@ -26,19 +22,19 @@ const SlowText = (props) => {
 
 const Message = ({ text, aiMessage, animate }) => {
   return (
-    <Container
-      className="message_container"
+    <div
+      className=" container message_container"
       style={{ background: aiMessage ? "rgb(247, 247, 248)" : "white" }}
     >
-      <Row>
-        <Col className="col-2">{aiMessage ? <FaRobot /> : <GrUser />}</Col>
-        <Col className="col-10">
+      <div className="row">
+        <div className=" col col-2">{aiMessage ? <FaRobot /> : <GrUser />}</div>
+        <div className="col col-10">
           <p className="message_text">
             {animate ? <SlowText speed={80} textOut={text} /> : text}
           </p>
-        </Col>
-      </Row>
-    </Container>
+        </div>
+      </div>
+    </div>
   );
 };
 
