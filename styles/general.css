@@ -64,14 +64,12 @@
   background-color: black;
   margin-top: 2em;
   padding-bottom: 6em;
-  padding-left: 1em;
-  padding-right: 1em;
 }
 
 .copyright {
   color: gray;
-  padding-left: 4em;
   margin: auto;
+  text-align: center;
 }
 
 .dev-by {
