@@ -12,17 +12,30 @@ const Footer = () => {
           <div className=" col footer-privacy">PRIVACY POLICY</div>
         </div>
         <div className="row">
-          <div className="col">
-            <p className="copyright">
-              Copyright © {fullYear()} Edgar Lindo - All rights Reserved.
-            </p>
+          <div className="col-6">
+            <div>
+              <p className="copyright">Copyright © {fullYear()} TU </p>
+            </div>
+            <div>
+              {" "}
+              <p className="copyright">All Rights Reserved </p>
+            </div>
           </div>
-          <div className="col dev-by">
-            <span className="dev-by2">Developed by:</span>{" "}
-            <span className="edgar">Edgar Lindo</span>
+          <div className="col-6">
+            <div>
+              <p className="dev-by">Developed by:</p>
+            </div>
+            <div>
+              <a
+                className="edgar"
+                href="https://www.edgarlindo.com/"
+                target="blank"
+              >
+                Edgar Lindo
+              </a>
+            </div>
           </div>
         </div>
-        <br /> <br /> <br /> <br /> <br />
       </footer>
     </div>
   );

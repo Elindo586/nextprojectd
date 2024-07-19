@@ -47,32 +47,41 @@
 }
 
 /* Footer */
-.main-footer {
-  background-color: black;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-}
+
 .footer-privacy {
   color: white;
   padding-top: 2em;
   padding-bottom: 2em;
   text-align: center;
 }
+.main-footer2 {
+  background-color: black;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.main-footer {
+  background-color: black;
+  margin-top: 2em;
+  padding-bottom: 6em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .copyright {
   color: gray;
   padding-left: 4em;
   margin: auto;
-  padding-bottom: 2em;
 }
+
 .dev-by {
-  text-align: left;
-  padding-bottom: 2.5em;
-}
-.dev-by2 {
   color: gray;
+  margin: auto;
 }
 .edgar {
-  color: green;
+  color: greenyellow;
+  text-decoration: none;
+  margin: auto;
 }
 .edgar:hover {
   color: chartreuse;
