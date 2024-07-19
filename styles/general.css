@@ -199,11 +199,7 @@
 /* Nav Bar  */
 
 .main-navbar {
-  background-color: black;
-  text-align: center;
-  padding-left: 3em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-left: 3em;
 }
 
 /* CHAT UI */
