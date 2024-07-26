@@ -84,7 +84,7 @@ export default function About({ db }) {
             first one week long cold, and first time (and maybe last time) I saw
             somebody wearing wooden snowshoes walking right outside my window,
             and people driving cars on top of a frozen lake. I have tons of
-            good, and some not so good memories of good old St. James. <br />{" "}
+            good, and some not so good memories of good old St. James.. <br />{" "}
             <br />
             Back in those days St. James was a town of bout 3,000 people so I
             was told. This was the place where I started to learn and speak
