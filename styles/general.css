@@ -13,8 +13,8 @@
 }
 .main-index {
   background-color: whitesmoke;
-  margin-left: 1.2em;
-  margin-right: 1.2em;
+  margin-left: 0.9em;
+  margin-right: 0.5em;
 }
 
 .wrap-index {
@@ -99,8 +99,8 @@
 
 .main-about {
   background-color: whitesmoke;
-  margin-left: 1.2em;
-  margin-right: 1.2em;
+  margin-left: 0.9em;
+  margin-right: 0.5em;
 }
 
 #edgar2 {
@@ -171,7 +171,7 @@
 /* Contact Form */
 .main-contact-form-div {
   background-color: lightskyblue;
-  margin-top: 0.5em;
+  margin-top: 0.2em;
 }
 .get-in-touch {
   padding-top: 0.7em;
@@ -192,8 +192,8 @@
   background-color: whitesmoke;
 }
 .main-contact-div {
-  margin-right: 0.5em;
-  margin-left: 0.5em;
+  margin-right: 0.2em;
+  margin-left: 0.2em;
 }
 
 /* Nav Bar  */
