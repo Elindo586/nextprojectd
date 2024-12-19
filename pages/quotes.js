@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
 
-import quotes from "../thejsons/quotes.json";
+import quotes from "../thejsons/list.json";
 const dataMain = quotes.data;
 const status = "quoted";
 // const filterData = dataMain.filter((element) => element.Status === status);

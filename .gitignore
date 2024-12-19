@@ -34,3 +34,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+#pages
+pages/follow
+pages/filter
+pages/follow-las-vegas
+pages/files
+pages/quotes

@@ -1,5 +1,5 @@
 import React from "react";
-import quotes from "../thejsons/address.json";
+import quotes from "../thejsons/list.json";
 
 export default function ContactForm() {
   const handleSubmit = async () => {
