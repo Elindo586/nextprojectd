@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Edgar ",
+    "lastName": "Lindo",
+    "email": "elindo586@gmail.com",
+    "country": "USA",
+    "status": "yes"
+  },
+  {
+    "id": "2",
+    "name": "John",
+    "lastName": "Doe",
+    "email": "elindo586@gmail.com",
+    "country": "USA",
+    "status": "no"
+  }
+]
