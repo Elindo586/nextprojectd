@@ -6,9 +6,9 @@ export default async function stuff(req, res) {
       user: process.env.EMAIL2,
       pass: process.env.EPASSWORD2,
     },
-    // tls: {
-    //   rejectUnauthorized: true, // Allow self-signed certificates (development only)
-    // },
+    tls: {
+      rejectUnauthorized: false, // Allow self-signed certificates (development only)
+    },
   });
   
 
