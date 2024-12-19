@@ -3,10 +3,14 @@ export default async function stuff(req, res) {
   const transporter = nodemailer.createTransport({
     service: "Outlook365",
     auth: {
-      user: process.env.EMAIL,
-      pass: process.env.EPASSWORD,
+      user: process.env.EMAIL2,
+      pass: process.env.EPASSWORD2,
     },
+    // tls: {
+    //   rejectUnauthorized: true, // Allow self-signed certificates (development only)
+    // },
   });
+  
 
   await new Promise((resolve, reject) => {
     // verify connection configuration
@@ -22,9 +26,9 @@ export default async function stuff(req, res) {
   });
 
   const mailData = {
-    from: "info@tu.biz",
+    from: { name: "EdgarSiteForm", address: "edgar@tu.biz"},
     to: "info@tu.biz",
-    subject: "contact form",
+    subject: "contact form Edgar",
     text:
       req.body.company +
       " | Sent from: " +
